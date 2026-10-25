@@ -1,0 +1,1275 @@
+{
+  "started_at": "2026-10-23T14:22:30.498646+00:00",
+  "mode": "live",
+  "origin": "http://localhost:8082",
+  "input": "帮我找找杭州开发相关实习",
+  "checks": {
+    "private_model_consent_remains_false": true,
+    "real_queue_completed": true,
+    "multiple_source_linked_cards": true,
+    "requirements_available": true,
+    "separate_ai_predictions": true
+  },
+  "limitations": [
+    "Search excerpts are public source evidence, not a full JD. Live availability and all hiring requirements still require the original site.",
+    "Difficulty is a model prediction based on public evidence, not a measured interview pass rate or a personal fit score."
+  ],
+  "source_search_run_id": "23e6add9-5aac-44a9-9f18-c82b6b1acf54",
+  "run": {
+    "id": "313d3f96-a0cc-40fd-94e7-7667bc5590bb",
+    "kind": "search_organize",
+    "status": "succeeded",
+    "error_code": null,
+    "model": null,
+    "prompt_version": null,
+    "result": {
+      "counts": {
+        "organization_errors": 0,
+        "organized_positions": 32,
+        "organized_candidates": 22,
+        "unique_opportunities": 32
+      },
+      "errors": [],
+      "source_search_run_id": "23e6add9-5aac-44a9-9f18-c82b6b1acf54"
+    }
+  },
+  "candidates": [
+    {
+      "id": "0e59491d-5c71-481c-833c-b8d165a947f2",
+      "url": "https://www.zhipin.com/zhaopin/c33e9393ed8dcf2f0nZ62tu-GQ~~",
+      "title": "杭州C++实习生招聘信息",
+      "summary": "岗位职责： 1. 参与网格剖分核心算法开发和优化任务。 2. 根据客户需求，完成定制化算法开发任务。 3. 根据技术文档规范和开发流程编写相应的技术文档。",
+      "query": "开发 杭州 实习生  招聘 岗位职责 任职要求",
+      "query_kind": "user_confirmed",
+      "status": "metadata_only",
+      "error_code": null,
+      "job_id": null,
+      "created_at": "2026-10-23T14:16:43.541356Z",
+      "intelligence": {
+        "kind": "position",
+        "opportunities": [
+          {
+            "title": "杭州C++实习生",
+            "company": null,
+            "cities": [
+              "杭州"
+            ],
+            "salary": null,
+            "education": null,
+            "attendance": null,
+            "deadline": null,
+            "responsibilities": [
+              "参与网格剖分核心算法开发和优化任务。",
+              "根据客户需求，完成定制化算法开发任务。",
+              "根据技术文档规范和开发流程编写相应的技术文档。"
+            ],
+            "requirements": [],
+            "relevance": "high",
+            "relevance_reason": "岗位为杭州C++开发实习，职责涉及算法开发与优化，与用户开发方向实习需求匹配。",
+            "difficulty": {
+              "level": "medium",
+              "reason": "依据有限：岗位名称与职责显示为C++算法开发方向，缺少明确任职要求，难度为一般经验推测，不代表实际面试标准。",
+              "preparation": [
+                "复习C++基础语法、内存管理与常用数据结构算法",
+                "准备网格剖分或数值算法相关项目经历与代码讲解",
+                "练习技术文档编写与需求沟通表达"
+              ]
+            }
+          }
+        ],
+        "note": "杭州C++开发实习，职责涉及网格剖分算法开发与优化。",
+        "basis": "search_excerpt",
+        "prompt_version": "2026-10-23.6"
+      }
+    },
+    {
+      "id": "1173c794-ab3a-4e47-8b44-18d948d81dbd",
+      "url": "https://m.jobui.com/salary/hangzhou-houduankaifashixisheng",
+      "title": "杭州后端开发实习生工资待遇（招聘要求） - 职友集",
+      "summary": "+243%\n\n  招聘  \n  需求\n 史陶比尔（杭州）精密机械电子有限公司\n\n  ￥16.1K / 5.3万人气 / 500-999人\n\n  人工智能 精密机械 工业连接器 机床 工业机器人\n\n  +36%\n\n  招聘  \n  需求\n\n## 杭州招聘后端开发实习生的热门公司\n\n更多\n\n 北京抖音信息服务有限公司\n\n  后端开发实习生-中国交易与广告\n\n  杭州 | 本科以上\n\n  ￥薪资面议\n\n  \n 杭州星核引力人工智能科技有限公司\n\n  后端开发实习生（AI营销方向）\n\n  杭州 | 本科以上\n\n  ￥150-250/天\n 北京抖音信息服务有限公司\n\n  后端开发实习生-中国交易与广告\n\n  杭州-余杭区 | 本科以上\n\n  ￥7K-9K\n\n  \n 北京抖音信息服务有限公司\n\n  后端开发实习生-飞书\n\n  杭州-余杭区 | 应届毕业生 | 不限学历\n\n  ￥400-500元/天\n\n  \n 南通云尚找家纺电子商务有限公司\n\n  26后端开发实习生（可转正）\n\n  杭州-滨江区 | 不限经验 | 本科以上\n\n  ￥10K-15K\n 杭州 | 本科以上\n 北京抖音信息服务有限公司\n\n  杭州 | 本科以上\n 阿里巴巴（中国）有限公司\n\n  杭州-余杭区 | 本科以上\n\n  ￥7K-9K\n\n  \n\n## 杭州人工智能行业人才需求趋势分析 更多\n\n- 人工智能 +38%\n- 云计算 +13%\n- 智能系统 +33%\n- 云服务 +29%\n- IaaS +29%\n- 游戏 +13%\n- 机器学习 +38%\n\n### 加班情况调查：\n\n经常加班 :( 0\n\n不用或偶尔加班 :) 0\n\n### 职业信心调查：继续从事本岗位？\n\n嗯，有信心 0\n\n准备转行 0 [...] 发现好公司 发现好客户\n\n 公司   工资   行业   专业   工作   百科   排行榜   找客户 \n\n工作 |\n\n工作 公司 工资 专业\n\n# 杭州后端开发实习生工资待遇\n\n杭州后端开发实习生招聘工资收入一般多少钱一个月？ 51.7%岗位拿￥4.5-10K/月，年薪￥5-12W，2025年较2024下降了25%。 按学历统计，本科工资￥10.8K。 按经验，应届生工资￥7.8K。 就业前景怎么样？市场需求：2026年招聘职位30个，占杭州0.005%。 工作区域，主要分布在余杭区，西湖区。 就业单位：人工智能占61.1%，智能化占55.6%，智能系统占55.6%。\n\n 地区：\n\n  不限 上海 北京 深圳 广州 杭州 成都 南京 天津 武汉 长沙  其他地区 \n 区县：\n\n  不限 余杭区 西湖区\n 学历：\n\n  不限 本科\n 经验：\n\n  不限 应届生\n 行业：\n\n  不限 人工智能 云计算 智能系统 B2C 云服务 IaaS 代理分销 游戏 机器学习 研发 海外  其他行业 \n 规模：\n\n  不限 少于50人 100-499人 1000-4999人\n\n最新招聘   岗位职责   工资收入   行业名企\n\n## 杭州后端开发实习生月薪\n\n## 杭州后端开发实习生年薪\n\n月薪 \n\n 月薪\n 年薪\n\n薪酬区间: 2-50K，其中51.7%的岗位拿￥4.5-10K/月，年薪￥5-12W   薪酬区间: 2-60W，其中51.7%的岗位拿 ￥5-12W/年\n\n3.4% 2-3K   13.8% 3-4.5K    \\\\\\   ? 4.5-6K    \\\\\\   ? 8-10K   20.7% 10-15K   10.3% 30-50K [...] 不用或偶尔加班 :) 0\n\n### 职业信心调查：继续从事本岗位？\n\n嗯，有信心 0\n\n准备转行 0\n\n 长睦 򀀩\n 城东新城 򀀩\n 城站 򀀩\n 定安 򀀩\n 丁桥 򀀩\n 复兴 򀀩\n 艮北新城 򀀩\n 湖滨 򀀩\n 火车东站 򀀩\n 笕桥 򀀩\n 景芳 򀀩\n 近江 򀀩\n 九堡科技园 򀀩\n 九堡客运站 򀀩\n 九堡沿江 򀀩\n 凯旋/采荷 򀀩\n 龙翔附近 򀀩\n 南肖埠 򀀩\n 南星 򀀩\n 彭埠 򀀩\n 普福 򀀩\n 钱江新城 򀀩\n 三堡 򀀩\n 三里亭 򀀩\n\n省份排名： 人工智能 / 云计算 / 智能系统 / 云服务 / IaaS / 游戏 / 机器学习 /\n\n杭州后端开发实习生工资根据企业近一年发布的薪酬数据统计所得，可能因统计算法等因素出现偏差，仅供参考。 由职友集 jobui.com 统计开发并发布，保留所有权利，任何网站或个人使用必须给出来源并注明链接。\n\n杭州招聘后端开发实习生    杭州招聘后端开发工程师    杭州招聘高级后端开发工程师    杭州招聘资深后端开发工程师    杭州招聘后端工程师    杭州招聘后端开发    杭州招聘前端开发实习生    杭州招聘软件开发实习生    杭州“计算机/网络/技术类”招聘比较多的公司 \n\n关于\n:   关于我们\n:   联系我们\n:   加入我们\n:   开放收录\n:   用户反馈\n\n选公司\n:   公司搜索\n:   公司排行榜\n:   找客户\n:   500强招聘\n:   酷公司\n\n找工作\n:   搜索职位\n:   应届生招聘\n:   兼职招聘\n:   实习生招聘\n:   暑假工招聘\n\n查工资\n:   薪酬搜索\n\n看趋势\n:   大学生就业形势分析\n\n职业指导/交流\n:   小组\n:   职场法规 / 安全求职\n:   粤ICP备05102490号-1",
+      "query": "开发 杭州 实习生  后端开发 招聘",
+      "query_kind": "user_confirmed",
+      "status": "metadata_only",
+      "error_code": null,
+      "job_id": null,
+      "created_at": "2026-10-23T14:16:48.795510Z",
+      "intelligence": {
+        "kind": "listing",
+        "opportunities": [
+          {
+            "title": "后端开发实习生-中国交易与广告",
+            "company": "北京抖音信息服务有限公司",
+            "cities": [
+              "杭州"
+            ],
+            "salary": "薪资面议",
+            "education": "本科以上",
+            "attendance": null,
+            "deadline": null,
+            "responsibilities": [],
+            "requirements": [],
+            "relevance": "high",
+            "relevance_reason": "杭州后端开发实习岗位，与用户城市和开发方向一致",
+            "difficulty": {
+              "level": "medium",
+              "reason": "仅依据岗位名称与一般招聘经验推测，缺少明确任职要求，属于一般经验估计，不代表实际面试标准",
+              "preparation": [
+                "复习数据结构与算法，练习常见后端面试题",
+                "准备后端基础（数据库、网络、操作系统）知识梳理"
+              ]
+            }
+          },
+          {
+            "title": "后端开发实习生（AI营销方向）",
+            "company": "杭州星核引力人工智能科技有限公司",
+            "cities": [
+              "杭州"
+            ],
+            "salary": "150-250/天",
+            "education": "本科以上",
+            "attendance": null,
+            "deadline": null,
+            "responsibilities": [],
+            "requirements": [],
+            "relevance": "high",
+            "relevance_reason": "杭州后端开发实习岗位，与用户城市和开发方向一致",
+            "difficulty": {
+              "level": "medium",
+              "reason": "仅依据岗位名称与一般招聘经验推测，缺少明确任职要求，属于一般经验估计，不代表实际面试标准",
+              "preparation": [
+                "复习后端开发基础与常用框架",
+                "了解AI营销相关业务场景与数据处理基础"
+              ]
+            }
+          },
+          {
+            "title": "后端开发实习生-飞书",
+            "company": "北京抖音信息服务有限公司",
+            "cities": [
+              "杭州"
+            ],
+            "salary": "400-500元/天",
+            "education": "不限学历",
+            "attendance": null,
+            "deadline": null,
+            "responsibilities": [],
+            "requirements": [],
+            "relevance": "high",
+            "relevance_reason": "杭州后端开发实习岗位，与用户城市和开发方向一致",
+            "difficulty": {
+              "level": "medium",
+              "reason": "仅依据岗位名称与一般招聘经验推测，缺少明确任职要求，属于一般经验估计，不代表实际面试标准",
+              "preparation": [
+                "复习算法与后端基础知识",
+                "准备项目经历与协作开发相关经验说明"
+              ]
+            }
+          }
+        ],
+        "note": "招聘聚合页，原文列出多个具体实习职位，提取前3个；其余职位未逐一列出。",
+        "basis": "search_excerpt",
+        "prompt_version": "2026-10-23.6"
+      }
+    },
+    {
+      "id": "2360042f-fe81-46c8-ae39-dd4f3b21fd3e",
+      "url": "https://www.zhipin.com/zhaopin/7a6350411316c31503x63tu9Ew~~",
+      "title": "杭州初级后端开发实习生招聘信息",
+      "summary": "岗位职责1. 参与后端系统的设计与开发，协助实现核心业务功能，并参与代码优化工作。 2. 协助完成接口开发、数据处理及服务端逻辑编写，保障系统稳定性与性能。",
+      "query": "开发 杭州 实习生  招聘 岗位职责 任职要求",
+      "query_kind": "user_confirmed",
+      "status": "metadata_only",
+      "error_code": null,
+      "job_id": null,
+      "created_at": "2026-10-23T14:16:43.535194Z",
+      "intelligence": {
+        "kind": "position",
+        "opportunities": [],
+        "note": "仅见岗位职责，未列任职要求。",
+        "basis": "search_excerpt",
+        "prompt_version": "2026-10-23.6"
+      }
+    },
+    {
+      "id": "24933f8c-be7e-4872-9452-0b8ca25eeeb2",
+      "url": "https://www.zhipin.com/zhaopin/7f0eda77460f89c11nN52ty6",
+      "title": "后端实习生招聘信息",
+      "summary": "后端实习生. 120-200元/天. F6汽车科技 · 后端实习生. 3-5K. 百视达 · 后端实习生. 100-200元/天. 杭州这里有法数据 · 后端实习生. 80-100元/天. 合肥人工智能研究院 · 后端",
+      "query": "开发 杭州 实习生  后端开发 招聘",
+      "query_kind": "user_confirmed",
+      "status": "metadata_only",
+      "error_code": null,
+      "job_id": null,
+      "created_at": "2026-10-23T14:16:48.801932Z",
+      "intelligence": {
+        "kind": "listing",
+        "opportunities": [
+          {
+            "title": "后端实习生",
+            "company": "F6汽车科技",
+            "cities": [],
+            "salary": "120-200元/天",
+            "education": null,
+            "attendance": null,
+            "deadline": null,
+            "responsibilities": [],
+            "requirements": [],
+            "relevance": "possible",
+            "relevance_reason": "后端实习岗位，但原文未标明城市，无法确认是否在杭州",
+            "difficulty": {
+              "level": "medium",
+              "reason": "仅依据岗位名称与一般招聘经验推测，缺少明确任职要求，属于一般经验估计，不代表实际面试标准",
+              "preparation": [
+                "复习后端基础与数据库知识",
+                "练习常见算法题"
+              ]
+            }
+          },
+          {
+            "title": "后端实习生",
+            "company": "百视达",
+            "cities": [],
+            "salary": "3-5K",
+            "education": null,
+            "attendance": null,
+            "deadline": null,
+            "responsibilities": [],
+            "requirements": [],
+            "relevance": "possible",
+            "relevance_reason": "后端实习岗位，但原文未标明城市，无法确认是否在杭州",
+            "difficulty": {
+              "level": "medium",
+              "reason": "仅依据岗位名称与一般招聘经验推测，缺少明确任职要求，属于一般经验估计，不代表实际面试标准",
+              "preparation": [
+                "复习后端开发基础",
+                "准备项目经历说明"
+              ]
+            }
+          },
+          {
+            "title": "后端实习生",
+            "company": "杭州这里有法数据",
+            "cities": [
+              "杭州"
+            ],
+            "salary": "100-200元/天",
+            "education": null,
+            "attendance": null,
+            "deadline": null,
+            "responsibilities": [],
+            "requirements": [],
+            "relevance": "high",
+            "relevance_reason": "杭州后端实习岗位，与用户城市和开发方向一致",
+            "difficulty": {
+              "level": "medium",
+              "reason": "仅依据岗位名称与一般招聘经验推测，缺少明确任职要求，属于一般经验估计，不代表实际面试标准",
+              "preparation": [
+                "复习后端基础与常用框架",
+                "准备数据处理相关项目经历"
+              ]
+            }
+          }
+        ],
+        "note": "实习招聘列表，原文列出多个具体实习职位，提取前3个。",
+        "basis": "search_excerpt",
+        "prompt_version": "2026-10-23.6"
+      }
+    },
+    {
+      "id": "308669d5-9845-41bc-ae21-e5d1843221fb",
+      "url": "https://www.nowcoder.com/discuss/973842",
+      "title": "杭州心识宇宙科技有限公司前端开发实习生(T3537)招聘",
+      "summary": "-参与公司商业产品的前端研发工作，包括虚拟人在H5页面上的表演系统的前端架构设计开发与优化。 岗位要求：. -本科以上学历，",
+      "query": "开发 杭州 实习生  招聘 岗位职责 任职要求",
+      "query_kind": "user_confirmed",
+      "status": "metadata_only",
+      "error_code": null,
+      "job_id": null,
+      "created_at": "2026-10-23T14:16:43.543840Z",
+      "intelligence": {
+        "kind": "position",
+        "opportunities": [
+          {
+            "title": "杭州心识宇宙科技有限公司前端开发实习生(T3537)招聘",
+            "company": "杭州心识宇宙科技有限公司",
+            "cities": [
+              "杭州"
+            ],
+            "salary": null,
+            "education": "本科以上学历",
+            "attendance": null,
+            "deadline": null,
+            "responsibilities": [
+              "参与公司商业产品的前端研发工作，包括虚拟人在H5页面上的表演系统的前端架构设计开发与优化。"
+            ],
+            "requirements": [
+              "本科以上学历"
+            ],
+            "relevance": "high",
+            "relevance_reason": "岗位为杭州前端开发实习，职责涉及H5前端架构设计开发与优化，与用户开发方向实习需求匹配。",
+            "difficulty": {
+              "level": "medium",
+              "reason": "依据有限：岗位名称与职责显示为前端开发方向，仅见本科学历要求，难度为一般经验推测，不代表实际面试标准。",
+              "preparation": [
+                "复习HTML/CSS/JavaScript基础与常见前端框架",
+                "准备H5页面或前端项目作品并梳理架构设计思路",
+                "练习前端性能优化与组件化开发相关问题"
+              ]
+            }
+          }
+        ],
+        "note": "杭州心识宇宙科技有限公司前端开发实习，职责涉及虚拟人H5表演系统前端开发。",
+        "basis": "search_excerpt",
+        "prompt_version": "2026-10-23.6"
+      }
+    },
+    {
+      "id": "30eeb2da-b1f1-45a5-81bc-a00d56386207",
+      "url": "https://www.zhipin.com/zhaopin/91cd5e1a384e586c0nZ62dm6Eg~~",
+      "title": "杭州软件开发实习岗招聘信息",
+      "summary": "任职要求: 1、全日制本科或硕士研究生在读学生。 2、有C/C++相关软件开发技术经验积累嵌入式软件开发-实习生150-200元/ 150-180元/天",
+      "query": "开发 杭州 实习生  招聘 岗位职责 任职要求",
+      "query_kind": "user_confirmed",
+      "status": "metadata_only",
+      "error_code": null,
+      "job_id": null,
+      "created_at": "2026-10-23T14:16:43.531689Z",
+      "intelligence": {
+        "kind": "position",
+        "opportunities": [],
+        "note": "薪资原文表述不规整，已按原文截取。",
+        "basis": "search_excerpt",
+        "prompt_version": "2026-10-23.6"
+      }
+    },
+    {
+      "id": "370f7467-68a0-4476-9d4c-6cab7732a58b",
+      "url": "https://www.zhipin.com/zhaopin/9c12510068ab4c290nR809-4Fw~~",
+      "title": "杭州web前端实习生招聘信息",
+      "summary": "参与项目的研发过程，完成开发、测试和相关文档编写工作3. 结合前端技术和项目需求，优化. web前端开发实习生. 120-150元/天. 中科星图深海科技 · 杭州钱塘区金沙湖 本科.",
+      "query": "开发 杭州 实习生  前端开发 招聘",
+      "query_kind": "user_confirmed",
+      "status": "metadata_only",
+      "error_code": null,
+      "job_id": null,
+      "created_at": "2026-10-23T14:16:51.704254Z",
+      "intelligence": {
+        "kind": "position",
+        "opportunities": [
+          {
+            "title": "web前端开发实习生",
+            "company": "中科星图深海科技",
+            "cities": [
+              "杭州"
+            ],
+            "salary": "120-150元/天",
+            "education": "本科",
+            "attendance": null,
+            "deadline": null,
+            "responsibilities": [
+              "参与项目的研发过程，完成开发、测试和相关文档编写工作",
+              "结合前端技术和项目需求，优化"
+            ],
+            "requirements": [],
+            "relevance": "high",
+            "relevance_reason": "杭州web前端实习岗位，与用户城市和开发方向一致。",
+            "difficulty": {
+              "level": "medium",
+              "reason": "岗位为web前端开发实习，职责涉及开发、测试和文档；缺少明确任职要求，以下为一般经验推测，不代表实际面试标准。",
+              "preparation": [
+                "熟悉前端开发、测试与文档编写流程",
+                "准备前端技术优化相关案例，如性能或交互优化"
+              ]
+            }
+          }
+        ],
+        "note": "招聘列表页，原文明确列出具体公司与职位，提取1个职位。",
+        "basis": "search_excerpt",
+        "prompt_version": "2026-10-23.6"
+      }
+    },
+    {
+      "id": "37c8654c-cd07-4e43-81fb-c7dd6f1196ed",
+      "url": "https://lxy.zust.edu.cn/info/1057/14797.htm",
+      "title": "CityDO集团实习生招聘信息-浙江科技大学理学院",
+      "summary": "招聘人数：若干\n\n工作地、薪资待遇等（可选）\n\n工作地：杭州\n\n薪资待遇：面议\n\n（9）岗位名称：项目助理（初级）  \n岗位职责：  \n1、协助项目经理完成资料整理、项目数据统计等工作；  \n2、协助项目经理开展项目执行过程中的重要节点事件处理，完成项目交付；  \n3、跟踪处理客户报告的产品技术问题，协助产品与研发部门分析和解决问题；  \n4、协助完成与客户保持有效沟通，对客户需求及时响应、反馈及优化改进跟踪；  \n5、配合项目经理处理其他项目内的工作。  \n任职要求：  \n1、本科及以上学历，有PMP证书者优先；  \n2、具有良好的沟通能力和应变能力，学习能力强，善于独立思考；  \n3、具有合作精神，有较强的责任心和耐心；  \n4、有智慧城市、政府类项目管理等相关工作经验者优先；  \n5、可接受出差，能承受较高强度工作压力；\n\n招聘人数：若干\n\n工作地、薪资待遇等（可选）\n\n工作地：杭州、宁波、湖州、德清、上海、宜宾、重庆、天津\n\n薪资待遇：面议\n\n（10）岗位名称：运维工程师（初级）  \n岗位职责：  \n1、负责部门内部需求与外部人员的沟通工作，跟进开发的进度情况，并进行初步验证工作；  \n2、管理部门服务器的正常运行，问题的处理，及日常的监控工作。  \n任职要求：  \n1、大专及以上学历，计算机、通信、电子等相关专业；有IT运维的工作经验优先；  \n2、负责机房设备、应用、系统、网络通信、安全产品维护及运行状况的监控预警，严格执行监控值守与交接班制度，按值班制度及时记录监控维护日志；  \n3、对突发事件及故障进行判断处理、记录、报告，及时协调资深工程师进行问题的深度处理，作好公司内部的沟通协作工作；  \n4、协助应用、网络、服务器、机房设备的变更实施、协助资深工程师的问题处理。\n\n招聘人数：若干\n\n工作地、薪资待遇等（可选） [...] 2、熟练运用office办公软件，有一定后台系统操作经验。  招聘人数：若干  工作地、薪资待遇等（可选）  工作地：杭州    薪资待遇：面议    （9）岗位名称：项目助理（初级） 岗位职责： 1、协助项目经理完成资料整理、项目数据统计等工作； 2、协助项目经理开展项目执行过程中的重要节点事件处理，完成项目交付； 3、跟踪处理客户报告的产品技术问题，协助产品与研发部门分析和解决问题； 4、协助完成与客户保持有效沟通，对客户需求及时响应、反馈及优化改进跟踪； 5、配合项目经理处理其他项目内的工作。 任职要求： 1、本科及以上学历，有PMP证书者优先； 2、具有良好的沟通能力和应变能力，学习能力强，善于独立思考； 3、具有合作精神，有较强的责任心和耐心； 4、有智慧城市、政府类项目管理等相关工作经验者优先； 5、可接受出差，能承受较高强度工作压力；  招聘人数：若干  工作地、薪资待遇等（可选）  工作地：杭州、宁波、湖州、德清、上海、宜宾、重庆、天津    薪资待遇：面议    （10）岗位名称：运维工程师（初级） 岗位职责： 1、负责部门内部需求与外部人员的沟通工作，跟进开发的进度情况，并进行初步验证工作； 2、管理部门服务器的正常运行，问题的处理，及日常的监控工作。 任职要求： 1、大专及以上学历，计算机、通信、电子等相关专业；有IT运维的工作经验优先； 2、负责机房设备、应用、系统、网络通信、安全产品维护及运行状况的监控预警，严格执行监控值守与交接班制度，按值班制度及时记录监控维护日志； 3、对突发事件及故障进行判断处理、记录、报告，及时协调资深工程师进行问题的深度处理，作好公司内部的沟通协作工作； 4、协助应用、网络、服务器、机房设备的变更实施、协助资深工程师的问题处理。  招聘人数：若干  工作地、薪资待遇等（可选） [...] 2、熟练运用office办公软件，有一定后台系统操作经验。  招聘人数：若干  工作地、薪资待遇等（可选）  工作地：杭州    薪资待遇：面议    （9）岗位名称：项目助理（初级） 岗位职责： 1、协助项目经理完成资料整理、项目数据统计等工作； 2、协助项目经理开展项目执行过程中的重要节点事件处理，完成项目交付； 3、跟踪处理客户报告的产品技术问题，协助产品与研发部门分析和解决问题； 4、协助完成与客户保持有效沟通，对客户需求及时响应、反馈及优化改进跟踪； 5、配合项目经理处理其他项目内的工作。 任职要求： 1、本科及以上学历，有PMP证书者优先； 2、具有良好的沟通能力和应变能力，学习能力强，善于独立思考； 3、具有合作精神，有较强的责任心和耐心； 4、有智慧城市、政府类项目管理等相关工作经验者优先； 5、可接受出差，能承受较高强度工作压力；  招聘人数：若干  工作地、薪资待遇等（可选）  工作地：杭州、宁波、湖州、德清、上海、宜宾、重庆、天津    薪资待遇：面议    （10）岗位名称：运维工程师（初级） 岗位职责： 1、负责部门内部需求与外部人员的沟通工作，跟进开发的进度情况，并进行初步验证工作； 2、管理部门服务器的正常运行，问题的处理，及日常的监控工作。 任职要求： 1、大专及以上学历，计算机、通信、电子等相关专业；有IT运维的工作经验优先； 2、负责机房设备、应用、系统、网络通信、安全产品维护及运行状况的监控预警，严格执行监控值守与交接班制度，按值班制度及时记录监控维护日志； 3、对突发事件及故障进行判断处理、记录、报告，及时协调资深工程师进行问题的深度处理，作好公司内部的沟通协作工作； 4、协助应用、网络、服务器、机房设备的变更实施、协助资深工程师的问题处理。  招聘人数：若干  工作地、薪资待遇等（可选）",
+      "query": "开发 杭州 实习生  招聘 岗位职责 任职要求",
+      "query_kind": "user_confirmed",
+      "status": "metadata_only",
+      "error_code": null,
+      "job_id": null,
+      "created_at": "2026-10-23T14:16:43.546119Z",
+      "intelligence": {
+        "kind": "listing",
+        "opportunities": [
+          {
+            "title": "项目助理（初级）",
+            "company": "CityDO集团",
+            "cities": [
+              "杭州"
+            ],
+            "salary": "面议",
+            "education": "本科及以上学历",
+            "attendance": null,
+            "deadline": null,
+            "responsibilities": [
+              "协助项目经理完成资料整理、项目数据统计等工作",
+              "协助项目经理开展项目执行过程中的重要节点事件处理，完成项目交付",
+              "跟踪处理客户报告的产品技术问题，协助产品与研发部门分析和解决问题",
+              "协助完成与客户保持有效沟通，对客户需求及时响应、反馈及优化改进跟踪",
+              "配合项目经理处理其他项目内的工作"
+            ],
+            "requirements": [
+              "本科及以上学历，有PMP证书者优先",
+              "具有良好的沟通能力和应变能力，学习能力强，善于独立思考",
+              "具有合作精神，有较强的责任心和耐心",
+              "有智慧城市、政府类项目管理等相关工作经验者优先",
+              "可接受出差，能承受较高强度工作压力"
+            ],
+            "relevance": "low",
+            "relevance_reason": "用户找杭州开发相关实习，该岗位为项目助理，非开发技术方向",
+            "difficulty": {
+              "level": "easy",
+              "reason": "岗位为初级项目助理，职责以资料整理、沟通协调为主，技术门槛较低；依据有限，属一般经验推测",
+              "preparation": [
+                "熟悉项目管理基本流程与PMP知识",
+                "练习数据统计与Office文档整理",
+                "准备沟通协调与客户响应相关案例"
+              ]
+            }
+          },
+          {
+            "title": "运维工程师（初级）",
+            "company": "CityDO集团",
+            "cities": [
+              "杭州",
+              "宁波",
+              "湖州",
+              "德清",
+              "上海",
+              "宜宾",
+              "重庆",
+              "天津"
+            ],
+            "salary": "面议",
+            "education": "大专及以上学历",
+            "attendance": null,
+            "deadline": null,
+            "responsibilities": [
+              "负责部门内部需求与外部人员的沟通工作，跟进开发的进度情况，并进行初步验证工作",
+              "管理部门服务器的正常运行，问题的处理，及日常的监控工作"
+            ],
+            "requirements": [
+              "大专及以上学历，计算机、通信、电子等相关专业；有IT运维的工作经验优先",
+              "负责机房设备、应用、系统、网络通信、安全产品维护及运行状况的监控预警，严格执行监控值守与交接班制度，按值班制度及时记录监控维护日志",
+              "对突发事件及故障进行判断处理、记录、报告，及时协调资深工程师进行问题的深度处理，作好公司内部的沟通协作工作",
+              "协助应用、网络、服务器、机房设备的变更实施、协助资深工程师的问题处理"
+            ],
+            "relevance": "possible",
+            "relevance_reason": "运维方向与开发相关但非开发岗，工作地含杭州，可作为相关实习参考",
+            "difficulty": {
+              "level": "medium",
+              "reason": "初级运维岗涉及服务器、网络、监控与故障处理，需一定系统与网络基础；依据有限，属一般经验推测",
+              "preparation": [
+                "复习Linux系统管理与常用命令",
+                "学习网络基础与监控告警工具",
+                "了解机房设备与故障排查流程"
+              ]
+            }
+          }
+        ],
+        "note": "招聘列表页，原文明确列出具体岗位，提取最多3个，实际2个；均为初级岗位，未明确标注实习性质。",
+        "basis": "search_excerpt",
+        "prompt_version": "2026-10-23.6"
+      }
+    },
+    {
+      "id": "4c3b50b4-dd08-4305-bf9b-a713468f1300",
+      "url": "https://www.zhipin.com/zhaopin/acd417863f0375fe0nR439W_Fw~~",
+      "title": "杭州前端实习招聘信息",
+      "summary": "前端实习生. 400-800元/天. 北京坤启无限科技 · 前端实习生. 100-200元/天. 三替好生活 · 前端实习生. 170-220元/天. 明度数智 · 前端开发实习生. 11-18K. 高帆破浪科技 · 前端",
+      "query": "开发 杭州 实习生  前端开发 招聘",
+      "query_kind": "user_confirmed",
+      "status": "metadata_only",
+      "error_code": null,
+      "job_id": null,
+      "created_at": "2026-10-23T14:16:51.712658Z",
+      "intelligence": {
+        "kind": "listing",
+        "opportunities": [
+          {
+            "title": "前端实习生",
+            "company": "北京坤启无限科技",
+            "cities": [
+              "杭州"
+            ],
+            "salary": "400-800元/天",
+            "education": null,
+            "attendance": null,
+            "deadline": null,
+            "responsibilities": [],
+            "requirements": [],
+            "relevance": "high",
+            "relevance_reason": "杭州前端实习岗位，与用户找杭州开发实习的方向和城市一致。",
+            "difficulty": {
+              "level": "easy",
+              "reason": "岗位为前端实习生，仅依据岗位名称和一般招聘经验推测，信息有限，不代表实际面试标准。",
+              "preparation": [
+                "复习HTML/CSS/JavaScript基础与常见布局",
+                "准备一个前端小项目并练习讲解实现细节"
+              ]
+            }
+          },
+          {
+            "title": "前端实习生",
+            "company": "三替好生活",
+            "cities": [
+              "杭州"
+            ],
+            "salary": "100-200元/天",
+            "education": null,
+            "attendance": null,
+            "deadline": null,
+            "responsibilities": [],
+            "requirements": [],
+            "relevance": "high",
+            "relevance_reason": "杭州前端实习岗位，与用户找杭州开发实习的方向和城市一致。",
+            "difficulty": {
+              "level": "easy",
+              "reason": "岗位为前端实习生，仅依据岗位名称和一般招聘经验推测，信息有限，不代表实际面试标准。",
+              "preparation": [
+                "复习HTML/CSS/JavaScript基础与常见布局",
+                "准备一个前端小项目并练习讲解实现细节"
+              ]
+            }
+          },
+          {
+            "title": "前端实习生",
+            "company": "明度数智",
+            "cities": [
+              "杭州"
+            ],
+            "salary": "170-220元/天",
+            "education": null,
+            "attendance": null,
+            "deadline": null,
+            "responsibilities": [],
+            "requirements": [],
+            "relevance": "high",
+            "relevance_reason": "杭州前端实习岗位，与用户找杭州开发实习的方向和城市一致。",
+            "difficulty": {
+              "level": "easy",
+              "reason": "岗位为前端实习生，仅依据岗位名称和一般招聘经验推测，信息有限，不代表实际面试标准。",
+              "preparation": [
+                "复习HTML/CSS/JavaScript基础与常见布局",
+                "准备一个前端小项目并练习讲解实现细节"
+              ]
+            }
+          }
+        ],
+        "note": "招聘列表页，原文列出多个具体前端实习职位，按最多3个提取。",
+        "basis": "search_excerpt",
+        "prompt_version": "2026-10-23.6"
+      }
+    },
+    {
+      "id": "57e7005d-5db6-428c-9c79-bdbdca42d40a",
+      "url": "https://www.aiitcxzx.com/joinUs/zcyz/xz",
+      "title": "校园招聘 - 视觉智能创新中心",
+      "summary": "我们招才引智联系我们定义未来职等你来职位筛选搜索职位请选择杭州・ 查看 2021.08.19 前端开发实习生@aiit.org.cn ・ 地址:浙江省杭州市",
+      "query": "开发 杭州 实习生  前端开发 招聘",
+      "query_kind": "user_confirmed",
+      "status": "metadata_only",
+      "error_code": null,
+      "job_id": null,
+      "created_at": "2026-10-23T14:16:51.724355Z",
+      "intelligence": {
+        "kind": "position",
+        "opportunities": [
+          {
+            "title": "前端开发实习生",
+            "company": null,
+            "cities": [
+              "杭州"
+            ],
+            "salary": null,
+            "education": null,
+            "attendance": null,
+            "deadline": null,
+            "responsibilities": [],
+            "requirements": [],
+            "relevance": "high",
+            "relevance_reason": "杭州前端开发实习岗位，与用户找杭州开发实习的方向和城市一致。",
+            "difficulty": {
+              "level": "easy",
+              "reason": "岗位为前端开发实习生，仅依据岗位名称和一般招聘经验推测，信息有限，不代表实际面试标准。",
+              "preparation": [
+                "复习HTML/CSS/JavaScript基础与常见布局",
+                "准备一个前端小项目并练习讲解实现细节"
+              ]
+            }
+          }
+        ],
+        "note": "校园招聘页面，原文明确列出前端开发实习生职位，地址为浙江省杭州市。",
+        "basis": "search_excerpt",
+        "prompt_version": "2026-10-23.6"
+      }
+    },
+    {
+      "id": "634f430c-d1c7-46c2-bcf7-356aec00a218",
+      "url": "https://www.91job.org/mobile/notice/20",
+      "title": "杭州市人才市场开发有限公司实习生招聘公告",
+      "summary": "任职要求: 1.本科及以上学历在读或应届毕业生、人力资源、心理学、工商管理、社会学等相关专业优先。 2.沟通能力强,能够高效对接客户与供应商",
+      "query": "开发 杭州 实习生  招聘 岗位职责 任职要求",
+      "query_kind": "user_confirmed",
+      "status": "metadata_only",
+      "error_code": null,
+      "job_id": null,
+      "created_at": "2026-10-23T14:16:43.527746Z",
+      "intelligence": {
+        "kind": "position",
+        "opportunities": [
+          {
+            "title": "杭州市人才市场开发有限公司实习生招聘公告",
+            "company": "杭州市人才市场开发有限公司",
+            "cities": [
+              "杭州"
+            ],
+            "salary": null,
+            "education": null,
+            "attendance": null,
+            "deadline": null,
+            "responsibilities": [],
+            "requirements": [
+              "本科及以上学历在读或应届毕业生、人力资源、心理学、工商管理、社会学等相关专业优先。",
+              "沟通能力强,能够高效对接客户与供应商"
+            ],
+            "relevance": "low",
+            "relevance_reason": "岗位为人力资源/客户对接方向，与用户寻找的开发类实习方向不符。",
+            "difficulty": {
+              "level": "easy",
+              "reason": "依据有限：仅见沟通能力与相关专业优先等要求，未见技术门槛；属一般经验推测，非实际面试标准。",
+              "preparation": [
+                "准备客户沟通与供应商对接的情景案例",
+                "梳理人力资源或工商管理相关基础知识"
+              ]
+            }
+          }
+        ],
+        "note": "招聘公告，仅含任职要求，未列岗位职责。",
+        "basis": "search_excerpt",
+        "prompt_version": "2026-10-23.6"
+      }
+    },
+    {
+      "id": "6d708531-be1f-4eaf-b554-04a8a45e44c0",
+      "url": "https://www.zhipin.com/zhaopin/848db00f5a6fb05303R82NS4Fg~~",
+      "title": "杭州阿里前端实习开发招聘信息",
+      "summary": "前端开发实习生. 80-130元/天 · web前端开发实习生. 240-340元/天 · 前端开发实习生. 100-200元/天 · 前端交互展现开发（应届生/实习生）. 6-11K·13薪 · web前端开发实习生.",
+      "query": "开发 杭州 实习生  前端开发 招聘",
+      "query_kind": "user_confirmed",
+      "status": "metadata_only",
+      "error_code": null,
+      "job_id": null,
+      "created_at": "2026-10-23T14:16:51.707713Z",
+      "intelligence": {
+        "kind": "listing",
+        "opportunities": [],
+        "note": "页面标题提及阿里前端实习，但evidence仅列出多个职位名称与薪资，未明确对应公司，故按列表处理，不提取具体职位。",
+        "basis": "search_excerpt",
+        "prompt_version": "2026-10-23.6"
+      }
+    },
+    {
+      "id": "a9980dc9-ff48-46fc-82fb-d75b080729ea",
+      "url": "https://www.zhipin.com/zhaopin/b8dc7f75cd9016a91H193NS6EA~~",
+      "title": "杭州前端开发招聘信息",
+      "summary": "前端开发实习生. 3-6K. 星舟出行 · 杭州拱墅区祥符街 在校/应届本科. 岗位职责: 1.根据 ... 杭州嵌入式软件实习 · 杭州清阳餐饮管理 · 杭州清洁生产审核 · 杭州嵌入式助理",
+      "query": "开发 杭州 实习生  前端开发 招聘",
+      "query_kind": "user_confirmed",
+      "status": "metadata_only",
+      "error_code": null,
+      "job_id": null,
+      "created_at": "2026-10-23T14:16:51.701414Z",
+      "intelligence": {
+        "kind": "position",
+        "opportunities": [
+          {
+            "title": "前端开发实习生",
+            "company": "星舟出行",
+            "cities": [
+              "杭州"
+            ],
+            "salary": "3-6K",
+            "education": "在校/应届本科",
+            "attendance": null,
+            "deadline": null,
+            "responsibilities": [
+              "根据"
+            ],
+            "requirements": [],
+            "relevance": "high",
+            "relevance_reason": "杭州前端开发实习岗位，与用户城市和开发方向一致。",
+            "difficulty": {
+              "level": "medium",
+              "reason": "岗位为前端开发实习，仅从名称和薪资可识别技术方向；缺少完整任职要求，以下为一般经验推测，不代表实际面试标准。",
+              "preparation": [
+                "复习HTML/CSS/JavaScript基础与常见布局",
+                "准备一个前端项目并说明开发、测试与文档流程"
+              ]
+            }
+          }
+        ],
+        "note": "招聘列表页，原文明确列出具体公司与职位，提取1个职位。",
+        "basis": "search_excerpt",
+        "prompt_version": "2026-10-23.6"
+      }
+    },
+    {
+      "id": "b29adc91-36da-4320-a4b9-e6ac56b67273",
+      "url": "https://www.zhipin.com/zhaopin/69d890579b6d9f711HR429y_EQ~~",
+      "title": "杭州实习生杭州招聘信息",
+      "summary": "岗位职责: 1. boss沟通约聊，每天沟通400人以上，约面3人以上。 2. 协助人力资源总监做员工入转调离工作。 3. 入职背调、入职资料收集及文档整理。",
+      "query": "开发 杭州 实习生  招聘 岗位职责 任职要求",
+      "query_kind": "user_confirmed",
+      "status": "metadata_only",
+      "error_code": null,
+      "job_id": null,
+      "created_at": "2026-10-23T14:16:43.538316Z",
+      "intelligence": {
+        "kind": "position",
+        "opportunities": [
+          {
+            "title": "杭州实习生",
+            "company": null,
+            "cities": [
+              "杭州"
+            ],
+            "salary": null,
+            "education": null,
+            "attendance": null,
+            "deadline": null,
+            "responsibilities": [
+              "boss沟通约聊，每天沟通400人以上，约面3人以上。",
+              "协助人力资源总监做员工入转调离工作。",
+              "入职背调、入职资料收集及文档整理。"
+            ],
+            "requirements": [],
+            "relevance": "low",
+            "relevance_reason": "岗位职责为人力资源招聘与入转调离事务，与用户寻找的开发方向实习不符。",
+            "difficulty": {
+              "level": "unknown",
+              "reason": "岗位方向为人力资源事务，无法识别技术方向，暂不判断难度。",
+              "preparation": []
+            }
+          }
+        ],
+        "note": "招聘信息标题为杭州实习生，职责为人力资源相关，非开发岗位。",
+        "basis": "search_excerpt",
+        "prompt_version": "2026-10-23.6"
+      }
+    },
+    {
+      "id": "b5d56887-6c27-448b-a521-d863ec39f7b1",
+      "url": "https://www.yingjiesheng.com/app/jobarea_list.php?arid=102&page=2&job51=1",
+      "title": "杭州招聘_杭州应届生求职网",
+      "summary": "| [网申[杭州]湖南财信金融控股集团有限公司](/job-008-105-095.html) | 网络金融部-产品设计岗 | 浙江,湖南,杭州 | 前程无忧(51JOB) | 2026-10-22 |\n| [网申[杭州-临安区]浙江临安农村商业银行股份有限公司](/job-008-086-662.html) | 管理培训生 | 浙江,杭州 | 前程无忧(51JOB) | 2026-10-22 |\n| [网申[杭州]芯源系统有限公司](/job-007-601-546.html) | 技术方案工程师（杭州） | 浙江,杭州 | 前程无忧(51JOB) | 2026-10-22 |\n| [网申[杭州]芯源系统有限公司](/job-007-601-527.html) | 中级应用工程师（杭州） | 浙江,杭州 | 前程无忧(51JOB) | 2026-10-22 |\n| [网申[杭州]芯源系统有限公司](/job-007-601-545.html) | 数字IC后端设计工程师（杭州） | 浙江,杭州 | 前程无忧(51JOB) | 2026-10-22 |\n| [[杭州]杭州中美华东制药有限公司](/job-008-130-909.html) | 人力资源专员 | 浙江,杭州 | 前程无忧(51JOB) | 2026-10-22 |\n| [[杭州-上城区]杭州巨星科技股份有限公司](/job-008-039-299.html) | 平面设计实习生 | 浙江,杭州 | 前程无忧(51JOB) | 2026-10-22 |\n| [[杭州-钱塘区]君合盟生物制药（杭州）股份有限公司](/job-008-130-658.html) | 仓管实习生  [生工 ] | 浙江,杭州 | 前程无忧(51JOB) | 2026-10-22 | [...] | [[杭州-钱塘区]上海济煜医药科技股份有限公司](/job-007-956-962.html) | QC实习生 | 浙江,杭州 | 前程无忧(51JOB) | 2026-10-21 |\n| [[杭州-西湖区]先之（杭州）教育科技有限公司](/job-007-331-151.html) | 社群运营实习生 | 浙江,杭州 | 前程无忧(51JOB) | 2026-10-21 |\n| [[杭州-萧山区]浙江泰隆商业银行股份有限公司](/job-008-128-720.html) | 总行财富部实习生｜有留用机会(J12930) | 浙江,杭州 | 前程无忧(51JOB) | 2026-10-21 |\n| [[杭州]杭州热联集团股份有限公司](/job-007-571-143.html) | 数据研究实习生 | 浙江,杭州 | 前程无忧(51JOB) | 2026-10-21 |\n| [[杭州-拱墅区]浙江交投科教集团有限公司](/job-008-086-884.html) | 设计实习生 | 浙江,杭州 | 前程无忧(51JOB) | 2026-10-21 |\n| [[杭州-上城区]杭州能欣投资有限公司](/job-008-055-110.html) | 网管实习生 | 浙江,杭州 | 前程无忧(51JOB) | 2026-10-21 | [...] | [[杭州-钱塘区]君合盟生物制药（杭州）股份有限公司](/job-008-130-659.html) | 工程实习生  [生工 ] | 浙江,杭州 | 前程无忧(51JOB) | 2026-10-22 |\n| [[杭州]浙江建科建筑特种工程有限公司](/job-007-990-998.html) | 施工员 | 浙江,杭州 | 前程无忧(51JOB) | 2026-10-22 |\n| [[杭州-滨江区]浙江省机电产品质量检测所有限公司](/job-008-130-634.html) | 检测工程师（劳务派遣） | 浙江,杭州 | 前程无忧(51JOB) | 2026-10-22 |\n| [[杭州-拱墅区]中国人民财产保险股份有限公司浙江省分公司](/job-008-130-624.html) | 理赔岗位（车辆保险方向） | 浙江,杭州 | 前程无忧(51JOB) | 2026-10-22 |\n| [[杭州-西湖区]杭州杰世时创科技有限公司](/job-008-015-178.html) | 行政助理 | 浙江,杭州 | 前程无忧(51JOB) | 2026-10-22 |\n| [[杭州]杭州科腾生物制品有限公司](/job-007-980-515.html) | 验证QA | 浙江,杭州 | 前程无忧(51JOB) | 2026-10-22 |\n| [[杭州]费列罗食品（杭州）有限公司](/job-007-473-230.html) | 产线关键岗位 | 浙江,杭州 | 前程无忧(51JOB) | 2026-10-22 |\n| [[杭州-上城区]和记黄埔（中国）商贸有限公司](/job-008-129-119.html) | 实习生（媒体运营方向）—杭州 | 浙江,杭州 | 前程无忧(51JOB) | 2026-10-22 |",
+      "query": "开发 杭州 实习生  后端开发 招聘",
+      "query_kind": "user_confirmed",
+      "status": "metadata_only",
+      "error_code": null,
+      "job_id": null,
+      "created_at": "2026-10-23T14:16:48.807762Z",
+      "intelligence": {
+        "kind": "listing",
+        "opportunities": [
+          {
+            "title": "技术方案工程师（杭州）",
+            "company": "芯源系统有限公司",
+            "cities": [
+              "杭州"
+            ],
+            "salary": null,
+            "education": null,
+            "attendance": null,
+            "deadline": "2026-10-22",
+            "responsibilities": [],
+            "requirements": [],
+            "relevance": "possible",
+            "relevance_reason": "杭州技术类岗位，与开发方向部分相关，但原文未说明是否实习",
+            "difficulty": {
+              "level": "medium",
+              "reason": "技术方案工程师偏技术方向，原文无任职要求，属一般经验推测",
+              "preparation": [
+                "复习电子/硬件或系统基础知识",
+                "准备技术方案沟通与文档能力案例"
+              ]
+            }
+          },
+          {
+            "title": "数字IC后端设计工程师（杭州）",
+            "company": "芯源系统有限公司",
+            "cities": [
+              "杭州"
+            ],
+            "salary": null,
+            "education": null,
+            "attendance": null,
+            "deadline": "2026-10-22",
+            "responsibilities": [],
+            "requirements": [],
+            "relevance": "low",
+            "relevance_reason": "数字IC后端设计属芯片方向，与软件开发实习方向差异较大",
+            "difficulty": {
+              "level": "hard",
+              "reason": "IC后端设计专业门槛较高，原文无要求，属一般经验推测",
+              "preparation": [
+                "复习数字电路与STA基础",
+                "了解后端物理设计流程"
+              ]
+            }
+          },
+          {
+            "title": "数据研究实习生",
+            "company": "杭州热联集团股份有限公司",
+            "cities": [
+              "杭州"
+            ],
+            "salary": null,
+            "education": null,
+            "attendance": null,
+            "deadline": "2026-10-21",
+            "responsibilities": [],
+            "requirements": [],
+            "relevance": "possible",
+            "relevance_reason": "杭州实习岗位，偏数据方向，与开发方向部分相关",
+            "difficulty": {
+              "level": "medium",
+              "reason": "数据研究实习方向可识别，原文无要求，属一般经验推测",
+              "preparation": [
+                "复习SQL与数据分析基础",
+                "准备数据整理与报告案例"
+              ]
+            }
+          }
+        ],
+        "note": "应届生招聘列表页，原文列出具体公司与职位，按规则提取最多3个；多数为设计、金融、生物等非开发岗位。",
+        "basis": "search_excerpt",
+        "prompt_version": "2026-10-23.6"
+      }
+    },
+    {
+      "id": "b66ed14a-6f6d-4524-b92d-c20e5b3e3118",
+      "url": "https://wap.shixiseng.com/intern/inn_tf4amtesnuvc",
+      "title": "后端开发实习生（杭州）实习招聘-七牛云实习生招聘-实习僧",
+      "summary": "首页\n 校招\n 实习僧TV\n 实习僧教育\n 职位百科\n\n企业入口\n\n后端开发实习生（杭州）\n\n2022-02-25 10:00:40 刷新\n\n200-250/天 杭州 本科 3天／周 实习6个月 提供转正机会\n\n免费早餐团建旅游弹性工作时间\n\n微信扫码同步查看  \n投递方便通知及时\n\n 扫码手机查看\n\n当前职位已下线\n\n职位描述：\n\n岗位职责：\n\n参与七牛大数据产品的开发工作\n\n任职要求：\n\n1. 本科及以上学历，计算机相关专业\n2. 熟悉至少一门后端语言，包括但不限于Go/Java/Scala/C/C++/Python/Ruby\n3. 熟悉至少一种数据库编程, 包括但不限于 Mongo/MySQL\n4. 熟悉 Linux 工作环境\n5. 有的数据结构和算法基础\n6. 工作积极主动、擅于思考问题，能够主动沟通与解决问题\n\n加分项：\n\n1. 熟悉大数据开源生态\n2. 熟悉容器技术\n3. 向知名开源项目提交过代码\n4. 表现优异者可申请转正\n5. 可实习6个月以上\n\n投递要求：\n\n简历要求： 中文\n\n截止日期：2018-11-30\n\n工作地点：\n\n杭州市下城区武林时代商务中心2106室 收起地图\n\n求职中若出现虚假宣传，收取财物等违法情况。请立即举报\n\n当前职位已下线\n\n公司简介\n\n  七牛云\n\n### 职位百科\n\n为你揭秘各职业的工作内容｜薪资水平…\n\n#### 大数据开发工程师\n\n百科详情\n\n负责一个大数据平台的底层架构的搭建和开发的人员。\n\n举报\n\nRiot Games 招聘问卷\n\n产品服务 找实习 找校招 看空宣\n\n旗下产品 实习僧 实习僧TV 实习僧题库 职场说\n\n关于我们 了解我们 加入我们 免责声明 专项治理\n\n联系我们 实习僧公众号 客户服务 \n\n服务时间：工作日 9:30-18:00\n\n商务合作 [...] 联系我们 实习僧公众号 客户服务 \n\n服务时间：工作日 9:30-18:00\n\n商务合作\n\n©2015-2026 实习僧|蜀ICP备13010980号|联系我们：sxs@shixiseng.com\n\n成都萌想科技有限责任公司版权所有 中国专注实习、校招垂直招聘平台\n\n川公网安备 51019002001179号 经营资质",
+      "query": "开发 杭州 实习生  后端开发 招聘",
+      "query_kind": "user_confirmed",
+      "status": "metadata_only",
+      "error_code": null,
+      "job_id": null,
+      "created_at": "2026-10-23T14:16:48.791565Z",
+      "intelligence": {
+        "kind": "position",
+        "opportunities": [
+          {
+            "title": "后端开发实习生（杭州）",
+            "company": "七牛云",
+            "cities": [
+              "杭州"
+            ],
+            "salary": "200-250/天",
+            "education": "本科",
+            "attendance": "3天／周 实习6个月",
+            "deadline": "2018-11-30",
+            "responsibilities": [
+              "参与七牛大数据产品的开发工作"
+            ],
+            "requirements": [
+              "本科及以上学历，计算机相关专业",
+              "熟悉至少一门后端语言，包括但不限于Go/Java/Scala/C/C++/Python/Ruby",
+              "熟悉至少一种数据库编程, 包括但不限于 Mongo/MySQL",
+              "熟悉 Linux 工作环境",
+              "有的数据结构和算法基础",
+              "工作积极主动、擅于思考问题，能够主动沟通与解决问题"
+            ],
+            "relevance": "low",
+            "relevance_reason": "方向为杭州后端开发实习，与用户需求匹配，但页面显示当前职位已下线且截止日期为2018-11-30，明显过期，不作为当前实习推荐",
+            "difficulty": {
+              "level": "medium",
+              "reason": "后端开发实习要求掌握一门后端语言、数据库与Linux基础，并具备数据结构算法基础；依据有限，属一般经验推测",
+              "preparation": [
+                "巩固一门后端语言（如Go/Java/Python）",
+                "练习数据库编程与SQL",
+                "复习数据结构与算法，准备刷题"
+              ]
+            }
+          }
+        ],
+        "note": "具体实习职位，但页面标注当前职位已下线，截止日期2018-11-30，已明显过期。",
+        "basis": "search_excerpt",
+        "prompt_version": "2026-10-23.6"
+      }
+    },
+    {
+      "id": "bd3d0dd1-9739-4c9c-b24b-1bcbbf1f66be",
+      "url": "https://www.liepin.com/city-hz/career/qianduankaifa",
+      "title": "【杭州前端开发招聘_杭州招聘前端开发人才】-杭州猎聘",
+      "summary": "众流\n\n  计算机软件 不需要融资 50-99人\n\n  \n\n  孙女士\n\n  产品助理\n H5前端工程师\n\n  【 杭州 】\n\n  25-50k·14薪\n\n  3-5年 学历不限\n\n  某上海大型互联网公司\n\n  某上海大型互联网公司\n\n  电子商务 D轮及以上融资 1000-2000人\n\n  \n\n  张女士\n\n  猎头顾问\n 前端-海外-大前端-英语流利\n\n  【 杭州 】\n\n  45-75k·14薪\n\n  3-5年 本科\n\n  某北京专业技术服务公司\n\n  某北京专业技术服务公司\n\n  专业技术服务 融资未公开 50-99人\n\n  \n\n  朱女士\n\n  业务合伙人\n 杭州+（初级/中级/资深）前端+高薪+五险一金+接受转行无经验+核心技术\n\n  【 杭州 】\n\n  15-30k·14薪\n\n  经验不限 本科\n\n  某知名公司\n\n  某知名公司\n\n  通信设备,智能硬件/消费电子 战略融资 10000人以上\n\n  \n\n  猎头顾问\n 【 余杭区 】\n\n  15-30k·13薪\n\n  8年以上 本科 年终奖金五险一金扁平管理带薪年假 险峰(K2VC)\n\n  险峰(K2VC)\n\n  专业技术服务 融资未公开 50-99人\n\n  \n\n  张先生\n 前端开发管培生 (MJ003000)\n\n  【 杭州-工人路 】\n\n  18-26k·14薪 古茗茶饮\n\n  古茗茶饮\n\n  食品/饮料/酒水 已上市 5000-10000人\n\n  \n 【 杭州-工人路 】\n\n  30-40k·14薪\n\n  本科 古茗茶饮\n\n  古茗茶饮\n\n  食品/饮料/酒水 已上市 5000-10000人\n\n  \n\n  林女士\n\n  招聘专家\n 【 杭州 】\n\n  40-70k\n\n  2-10年 本科\n\n  某北京互联网公司\n\n  某北京互联网公司\n\n  互联网 100-499人 [...] 陈女士\n\n  猎头顾问\n 千问办公-AI应用研发工程师-杭州/上海\n\n  【 杭州 】\n\n  10-20k\n\n  经验不限 硕士 阿里巴巴集团\n\n  阿里巴巴集团\n\n  互联网 已上市 10000人以上\n\n  \n\n  裘女士\n\n  招聘经理\n 前端开发（线下面试）\n\n  【 杭州-长河 】\n\n  10-12k\n\n  4-6年 大专 五险一金 法本信息\n\n  法本信息\n\n  IT服务 已上市 10000人以上\n\n  \n\n  马女士\n\n  招聘专员\n WEB前端工程师\n\n  【 杭州 】\n\n  15-22k\n\n  3-5年 本科\n\n  某杭州大型电子商务公司\n\n  某杭州大型电子商务公司\n\n  电子商务 5000-10000人\n\n  \n\n  张先生\n\n  猎头顾问\n 前端开发工程师（远程办公）\n\n  【 杭州-钱江新城 】\n\n  30-50k\n\n  5-10年 本科 北京必来屋网络科技有限公司\n\n  北京必来屋网络科技有限公司\n\n  互联网 100-499人\n\n  \n\n  韩先生\n 高级AI工程师-前端开发（北/上/深/杭）\n\n  【 杭州 】\n\n  35-65k·16薪\n\n  3-5年 本科\n\n  某知名电子商务公司\n\n  某知名电子商务公司\n\n  电子商务,批发/零售 已上市 10000人以上\n\n  \n\n  张先生\n\n  应用开发\n HTML5\n\n  【 杭州 】\n\n  30-60k\n\n  3-5年 本科\n\n  某北京基金/证券/期货公司\n\n  某北京基金/证券/期货公司\n\n  基金/证券/期货,互联网,广播/影视/录音 50-99人\n\n  \n\n  刘先生\n\n  高级猎头顾问\n 前端开发\n\n  【 钱塘区 】\n\n  15-25k\n\n  3-5年 学历不限\n\n  某深圳大型互联网公司\n\n  某深圳大型互联网公司\n\n  互联网,广播/影视/录音,游戏 500-999人 [...] 电子/半导体/集成电路,IT服务,计算机硬件 融资未公开 50-99人\n\n  \n\n  洪先生\n\n  猎头顾问\n WEB前端工程师\n\n  【 杭州 】\n\n  21-24k\n\n  1-3年 学历不限\n\n  某杭州知名公司\n\n  某杭州知名公司\n\n  人工智能 已上市 10000人以上\n\n  \n\n  胡先生\n\n  猎头顾问/助理\n ai前端开发\n\n  【 杭州 】\n\n  25-50k·13薪\n\n  5-10年 学历不限\n\n  某知名互联网上市公司\n\n  某知名互联网上市公司\n\n  互联网 已上市 10000人以上\n\n  \n\n  农先生\n\n  招聘经理\n WEB前端工程师\n\n  【 杭州 】\n\n  13-24k\n\n  经验不限 本科\n\n  某深圳大型通信设备公司\n\n  某深圳大型通信设备公司\n\n  通信设备,智能硬件/消费电子 战略融资 10000人以上\n\n  \n\n  温先生\n\n  招聘顾问\n 前端\n\n  【 杭州 】\n\n  9-14k\n\n  1年以下 本科\n\n  某杭州计算机软件上市公司\n\n  某杭州计算机软件上市公司\n\n  计算机软件,科技金融,基金/证券/期货 已上市 10000人以上\n\n  \n\n  宋先生\n\n  猎头顾问/助理\n 上位机软件工程师\n\n  【 杭州-西兴 】\n\n  20-25k·14薪\n\n  5-10年 本科 零跑科技\n\n  零跑科技\n\n  互联网,新能源汽车,整车制造 已上市 10000人以上\n\n  \n\n  曹先生\n\n  项目经理\n 前端开发（云电脑）-杭州国企\n\n  【 余杭区 】\n\n  20-40k·18薪\n\n  3-5年 本科\n\n  某杭州大型计算机软件公司\n\n  某杭州大型计算机软件公司\n\n  互联网,计算机软件,专业技术服务 融资未公开 1000-2000人\n\n  \n\n  余女士\n\n  猎头顾问\n 前端\n\n  【 杭州-文明路 】",
+      "query": "开发 杭州 实习生  前端开发 招聘",
+      "query_kind": "user_confirmed",
+      "status": "metadata_only",
+      "error_code": null,
+      "job_id": null,
+      "created_at": "2026-10-23T14:16:51.717843Z",
+      "intelligence": {
+        "kind": "listing",
+        "opportunities": [],
+        "note": "招聘列表页，所列前端职位多为3-5年等社招经验要求，未明确列出实习职位，故不提取为实习机会。",
+        "basis": "search_excerpt",
+        "prompt_version": "2026-10-23.6"
+      }
+    },
+    {
+      "id": "be4fd89c-d548-4808-9298-b49a6136fd6a",
+      "url": "https://cn.indeed.com/q-%E5%AE%9E%E4%B9%A0-l-%E6%9D%AD%E5%B7%9E%E5%B8%82-%E8%81%8C%E4%BD%8D.html",
+      "title": "在杭州市地区的实习职位",
+      "summary": "岗位要求: One years' experience or internship in related position is preferred. 1年同等职位工作经验或实习经验优先考虑。 Mandarin speaking is required.",
+      "query": "开发 杭州 实习生  招聘 岗位职责 任职要求",
+      "query_kind": "user_confirmed",
+      "status": "metadata_only",
+      "error_code": null,
+      "job_id": null,
+      "created_at": "2026-10-23T14:16:43.548424Z",
+      "intelligence": {
+        "kind": "irrelevant",
+        "opportunities": [],
+        "note": "招聘搜索列表页，仅有泛化岗位要求片段，未列出具体公司和职位，不能作为职位卡片。",
+        "basis": "search_excerpt",
+        "prompt_version": "2026-10-23.6"
+      }
+    },
+    {
+      "id": "c97fc938-4da3-44cd-8838-6b93470c8d32",
+      "url": "https://www.zhipin.com/zhaopin/46f63672790970191nBz3Nm8GQ~~",
+      "title": "阿里巴巴后端实习招聘信息",
+      "summary": "22届阿里巴巴天猫超市后端实习春招(杭州岗). 200-250元/天 ; 2025届阿里巴巴后端开发实习生. 300-400元/天 ; 阿里巴巴后端开发实习岗位. 200-250元/天 ; 阿里巴巴-阿里云-后端",
+      "query": "开发 杭州 实习生  后端开发 招聘",
+      "query_kind": "user_confirmed",
+      "status": "metadata_only",
+      "error_code": null,
+      "job_id": null,
+      "created_at": "2026-10-23T14:16:48.804573Z",
+      "intelligence": {
+        "kind": "listing",
+        "opportunities": [
+          {
+            "title": "22届阿里巴巴天猫超市后端实习春招(杭州岗)",
+            "company": "阿里巴巴",
+            "cities": [
+              "杭州"
+            ],
+            "salary": "200-250元/天",
+            "education": null,
+            "attendance": null,
+            "deadline": null,
+            "responsibilities": [],
+            "requirements": [],
+            "relevance": "low",
+            "relevance_reason": "面向22届的春招实习，届别明显陈旧，不适合当前实习申请",
+            "difficulty": {
+              "level": "medium",
+              "reason": "岗位为后端开发实习，方向可识别；但原文仅有标题与薪资，缺少任职要求，属一般经验推测",
+              "preparation": [
+                "复习Java/Go等后端语言基础与常见数据结构",
+                "准备数据库与HTTP接口相关项目经历"
+              ]
+            }
+          },
+          {
+            "title": "2025届阿里巴巴后端开发实习生",
+            "company": "阿里巴巴",
+            "cities": [],
+            "salary": "300-400元/天",
+            "education": null,
+            "attendance": null,
+            "deadline": null,
+            "responsibilities": [],
+            "requirements": [],
+            "relevance": "low",
+            "relevance_reason": "明确面向2025届，届别已过，不适合当前实习申请",
+            "difficulty": {
+              "level": "medium",
+              "reason": "后端开发实习方向明确，但原文信息有限，属一般经验推测",
+              "preparation": [
+                "梳理后端基础与算法题",
+                "准备一段可讲清的后端项目"
+              ]
+            }
+          },
+          {
+            "title": "阿里巴巴后端开发实习岗位",
+            "company": "阿里巴巴",
+            "cities": [],
+            "salary": "200-250元/天",
+            "education": null,
+            "attendance": null,
+            "deadline": null,
+            "responsibilities": [],
+            "requirements": [],
+            "relevance": "possible",
+            "relevance_reason": "杭州开发方向后端实习，与搜索方向一致，但原文未列城市与要求",
+            "difficulty": {
+              "level": "medium",
+              "reason": "岗位名称指向后端开发实习，缺少具体要求，属一般经验推测",
+              "preparation": [
+                "复习后端语言与框架基础",
+                "准备接口设计与数据库相关练习"
+              ]
+            }
+          }
+        ],
+        "note": "招聘列表页，原文列出多个具体实习职位，按规则提取最多3个；其中两个标注了已过届别。",
+        "basis": "search_excerpt",
+        "prompt_version": "2026-10-23.6"
+      }
+    },
+    {
+      "id": "ca814c25-16bf-4198-8e6f-1594b0eba33f",
+      "url": "https://www.liepin.com/city-hz/zpjavahd",
+      "title": "2026年杭州JAVA后端招聘信息",
+      "summary": "阿里健康-AI Native 工程师（Java 后端方向）-杭州/北京. 10-20k. 阿里巴巴集团已上市 · 裘女士· 招聘经理 ; Java后端开发工程师（PLM/PDM方向）. 18-35k. 硕磐智能B轮融资.",
+      "query": "开发 杭州 实习生  后端开发 招聘",
+      "query_kind": "user_confirmed",
+      "status": "metadata_only",
+      "error_code": null,
+      "job_id": null,
+      "created_at": "2026-10-23T14:16:48.810242Z",
+      "intelligence": {
+        "kind": "listing",
+        "opportunities": [
+          {
+            "title": "阿里健康-AI Native 工程师（Java 后端方向）-杭州/北京",
+            "company": "阿里巴巴集团",
+            "cities": [
+              "杭州",
+              "北京"
+            ],
+            "salary": "10-20k",
+            "education": null,
+            "attendance": null,
+            "deadline": null,
+            "responsibilities": [],
+            "requirements": [],
+            "relevance": "low",
+            "relevance_reason": "薪资为月薪区间，原文未标明实习，倾向社招岗位，与实习需求不符",
+            "difficulty": {
+              "level": "hard",
+              "reason": "Java后端结合AI方向，通常要求较全面技术能力；原文无任职要求，属一般经验推测",
+              "preparation": [
+                "复习Java后端与分布式基础",
+                "了解AI应用开发相关实践"
+              ]
+            }
+          },
+          {
+            "title": "Java后端开发工程师（PLM/PDM方向）",
+            "company": "硕磐智能",
+            "cities": [],
+            "salary": "18-35k",
+            "education": null,
+            "attendance": null,
+            "deadline": null,
+            "responsibilities": [],
+            "requirements": [],
+            "relevance": "low",
+            "relevance_reason": "薪资为月薪区间，原文未标明实习，倾向社招岗位",
+            "difficulty": {
+              "level": "hard",
+              "reason": "后端开发工程师岗位，薪资区间偏高，通常要求一定经验；属一般经验推测",
+              "preparation": [
+                "复习Java后端与数据库",
+                "准备PLM/PDM业务相关了解"
+              ]
+            }
+          }
+        ],
+        "note": "JAVA后端招聘列表页，原文列出具体职位，按规则提取；均为社招倾向岗位，非实习。",
+        "basis": "search_excerpt",
+        "prompt_version": "2026-10-23.6"
+      }
+    },
+    {
+      "id": "dbc51b4b-e206-4163-8fed-a62221dfbaea",
+      "url": "https://www.liepin.com/zpqdsx",
+      "title": "2026年前端实习招聘信息",
+      "summary": "前端实习生. 10-15k. 淘宝软件中国B轮融资. 杭州-西溪 经验不限 本科. 陈先生· 高级前端工程师 · 前端开发实习生. 4-6k. 武汉研诣科技有限公司天使轮融资. 武汉-流芳 经验",
+      "query": "开发 杭州 实习生  前端开发 招聘",
+      "query_kind": "user_confirmed",
+      "status": "metadata_only",
+      "error_code": null,
+      "job_id": null,
+      "created_at": "2026-10-23T14:16:51.733676Z",
+      "intelligence": {
+        "kind": "listing",
+        "opportunities": [
+          {
+            "title": "前端实习生",
+            "company": "淘宝软件中国",
+            "cities": [
+              "杭州"
+            ],
+            "salary": "10-15k",
+            "education": "本科",
+            "attendance": null,
+            "deadline": null,
+            "responsibilities": [],
+            "requirements": [
+              "经验不限",
+              "本科"
+            ],
+            "relevance": "high",
+            "relevance_reason": "杭州前端开发实习岗位，与用户城市和开发方向一致",
+            "difficulty": {
+              "level": "medium",
+              "reason": "仅依据岗位名称“前端实习生”和“经验不限、本科”等有限信息，结合一般前端实习招聘经验推测，不代表实际面试标准",
+              "preparation": [
+                "复习HTML/CSS/JavaScript基础与常见布局",
+                "准备前端项目经历，熟悉至少一个主流框架（如React或Vue）"
+              ]
+            }
+          },
+          {
+            "title": "前端开发实习生",
+            "company": "武汉研诣科技有限公司",
+            "cities": [
+              "武汉"
+            ],
+            "salary": "4-6k",
+            "education": null,
+            "attendance": null,
+            "deadline": null,
+            "responsibilities": [],
+            "requirements": [],
+            "relevance": "low",
+            "relevance_reason": "来源显示地点为武汉，与你输入的城市不同，请核实。",
+            "difficulty": {
+              "level": "medium",
+              "reason": "仅依据岗位名称“前端开发实习生”推测，信息有限，属于一般经验估计，不代表实际面试标准",
+              "preparation": [
+                "复习前端基础语法与浏览器调试",
+                "准备一个可展示的前端小项目"
+              ]
+            }
+          }
+        ],
+        "note": "招聘列表页，原文明确列出两个具体职位，已提取；其中武汉岗位与用户城市不符。",
+        "basis": "search_excerpt",
+        "prompt_version": "2026-10-23.6"
+      }
+    },
+    {
+      "id": "f79b17b4-63c9-449c-9ae5-76eaef869f5d",
+      "url": "https://www.liepin.com/city-hz/career/542",
+      "title": "【杭州后端开发招聘_杭州招聘后端开发人才】-杭州猎聘",
+      "summary": "10万起\n\n全国 学历不限 经验不限 公司名\n\n汇聚众多行业名企\n\n领导好 发展空间大 五险一金\n\n 【 杭州-文新 】\n\n  15-25k 运达风电\n\n  运达风电\n\n  新能源 已上市 100-499人\n\n  \n 全栈开发工程师（前端方向 · AI Agent）\n\n  【 杭州-长河 】\n\n  30-45k·15薪\n\n  3-5年 学历不限 连连支付\n\n  连连支付\n\n  科技金融 D轮及以上融资 1000-2000人\n\n  \n 【 杭州-下沙 】\n\n  17-24k·14薪\n\n  5年以上 本科 海辰储能\n\n  海辰储能\n\n  新能源 C轮融资 5000-10000人\n\n  \n 达摩院-传统编译开发专家-RISC V及生态\n\n  【 杭州 】\n\n  10-20k\n\n  经验不限 本科 阿里巴巴集团\n\n  阿里巴巴集团\n\n  互联网 已上市 10000人以上\n\n  \n\n  裘女士\n\n  招聘经理\n Java 后端工程师（兼网络运维）\n\n  【 杭州-小河 】\n\n  10-18k·15薪\n\n  5年以上 本科 带薪年假五险一金优秀员工奖 卓创乡建集团\n\n  卓创乡建集团\n\n  互联网,建筑/工程设计,农/林/牧/渔 融资未公开 100-499人\n\n  \n\n  鲁女士\n EDA研发工程师（上海/杭州/绍兴）\n\n  【 杭州-文明路 】\n\n  20-40k\n\n  硕士 雷娜科技\n\n  雷娜科技\n\n  电子/半导体/集成电路 战略融资 50-99人\n\n  \n\n  王女士\n\n  hr\n 资深C++ 工程师(J10122)\n\n  【 杭州-望江 】\n\n  12-20k\n\n  1-5年 本科 五险一金带薪年假节日礼物餐费补贴 南华期货股份有限公司\n\n  南华期货股份有限公司\n\n  基金/证券/期货 已上市 500-999人\n\n  \n\n  吴女士 [...] 付梦美\n\n  资深猎头顾问\n 高级全栈工程师（AI）hz\n\n  【 杭州 】\n\n  25-30k·13薪\n\n  5-10年 本科\n\n  某大型电子商务公司\n\n  某大型电子商务公司\n\n  电子商务 其他融资 1000-2000人\n\n  \n\n  杜先生\n\n  猎头顾问\n AI infra\n\n  【 杭州 】\n\n  30-60k\n\n  1-3年 本科\n\n  某北京互联网公司\n\n  某北京互联网公司\n\n  互联网 100-499人\n\n  \n\n  王女士\n\n  人事经理\n 软件开发工程师\n\n  【 杭州 】\n\n  15-25k\n\n  经验不限 本科\n\n  某上海大型专业技术服务公司\n\n  某上海大型专业技术服务公司\n\n  专业技术服务 融资未公开 10000人以上\n\n  \n\n  白先生\n\n  猎头顾问\n AI应用开发\n\n  【 杭州-南肖埠 】\n\n  19-35k·13薪\n\n  3年以上 学历不限 上海游幕网络科技有限公司\n\n  上海游幕网络科技有限公司\n\n  游戏,云计算/大数据,互联网 融资未公开 2000-5000人\n\n  \n\n  梁先生\n\n  HRBP\n 【 杭州-文明路 】\n\n  20-30k\n\n  5-10年 本科 长亮\n\n  长亮\n\n  计算机软件 已上市 5000-10000人\n\n  \n\n  招聘专员\n 【 杭州-文明路 】\n\n  30-50k\n\n  2年以上 硕士 年终奖金绩效奖金住房补贴餐费补贴 雷娜科技\n\n  雷娜科技\n\n  电子/半导体/集成电路 战略融资 50-99人\n\n  \n\n  王女士\n\n  hr\n 【 杭州-望江 】\n\n  15-30k\n\n  经验不限 本科 五险一金绩效奖金团队聚餐领导好 视研智能\n\n  视研智能\n\n  计算机软件 融资未公开 1-49人\n\n  \n\n  HR\n 【 杭州-文明路 】\n\n  20-30k·15薪 [...] 南华期货股份有限公司\n\n  基金/证券/期货 已上市 500-999人\n\n  \n\n  吴女士\n\n  招聘经理/主管\n 交易系统核心开发（远程）\n\n  【 杭州-小河 】\n\n  30-60k·15薪\n\n  5年以上 本科 远程办公 北京必来屋网络科技有限公司\n\n  北京必来屋网络科技有限公司\n\n  互联网 100-499人\n\n  \n\n  姚先生\n\n  HRBP\n 医学影像软件工程师（JAVA/DICOM/PACS核心开发）\n\n  【 杭州-湖滨 】\n\n  18-26k\n\n  5-10年 本科 五险一金绩效奖金带薪年假团队聚餐 联众医疗\n\n  联众医疗\n\n  IT服务,医疗器械 D轮及以上融资 100-499人\n\n  \n\n  张女士\n 资深Java开发工程师（影像大模型/5年+）\n\n  【 杭州-湖滨 】\n\n  12-15k\n\n  8年以上 本科 五险一金绩效奖金带薪年假团队聚餐 联众医疗\n\n  联众医疗\n\n  IT服务,医疗器械 D轮及以上融资 100-499人\n\n  \n\n  张女士\n Java开发工程师（供应链方向）\n\n  【 杭州-文明路 】\n\n  15-35k\n\n  2年以上 本科 年终奖金五险一金岗位晋升弹性工作 硕磐智能\n\n  硕磐智能\n\n  计算机软件 B轮融资 100-499人\n\n  \n\n  周先生\n 高级Java开发工程师（ERP方向）\n\n  【 杭州-文明路 】\n\n  25-40k\n\n  5年以上 本科 股票期权绩效奖金五险一金住房补贴 硕磐智能\n\n  硕磐智能\n\n  计算机软件 B轮融资 100-499人\n\n  \n\n  周先生\n 高级ERP开发工程师\n\n  【 杭州-文明路 】\n\n  20-35k\n\n  5-10年 本科 年终奖金五险一金岗位晋升弹性工作 硕磐智能\n\n  硕磐智能\n\n  计算机软件 B轮融资 100-499人",
+      "query": "开发 杭州 实习生  后端开发 招聘",
+      "query_kind": "user_confirmed",
+      "status": "metadata_only",
+      "error_code": null,
+      "job_id": null,
+      "created_at": "2026-10-23T14:16:48.798566Z",
+      "intelligence": {
+        "kind": "listing",
+        "opportunities": [
+          {
+            "title": "全栈开发工程师（前端方向 · AI Agent）",
+            "company": "连连支付",
+            "cities": [
+              "杭州"
+            ],
+            "salary": "30-45k·15薪",
+            "education": "学历不限",
+            "attendance": null,
+            "deadline": null,
+            "responsibilities": [],
+            "requirements": [
+              "3-5年"
+            ],
+            "relevance": "low",
+            "relevance_reason": "要求3-5年经验，属于社招岗位，不符合实习需求",
+            "difficulty": {
+              "level": "hard",
+              "reason": "仅依据岗位名称与一般招聘经验推测，要求3-5年经验且为全栈AI方向，属于一般经验估计，不代表实际面试标准",
+              "preparation": [
+                "复习前端与全栈开发技术栈",
+                "了解AI Agent相关应用开发基础"
+              ]
+            }
+          },
+          {
+            "title": "达摩院-传统编译开发专家-RISC V及生态",
+            "company": "阿里巴巴集团",
+            "cities": [
+              "杭州"
+            ],
+            "salary": "10-20k",
+            "education": "本科",
+            "attendance": null,
+            "deadline": null,
+            "responsibilities": [],
+            "requirements": [
+              "经验不限"
+            ],
+            "relevance": "low",
+            "relevance_reason": "专家级编译开发岗位，非实习岗位，与实习需求不符",
+            "difficulty": {
+              "level": "hard",
+              "reason": "仅依据岗位名称与一般招聘经验推测，专家级编译方向门槛较高，属于一般经验估计，不代表实际面试标准",
+              "preparation": [
+                "复习编译原理与RISC-V体系结构",
+                "准备C/C++与底层系统开发经验"
+              ]
+            }
+          },
+          {
+            "title": "软件开发工程师",
+            "company": "某上海大型专业技术服务公司",
+            "cities": [
+              "杭州"
+            ],
+            "salary": "15-25k",
+            "education": "本科",
+            "attendance": null,
+            "deadline": null,
+            "responsibilities": [],
+            "requirements": [
+              "经验不限"
+            ],
+            "relevance": "low",
+            "relevance_reason": "社招软件开发岗位，未标明实习信息，不符合实习需求",
+            "difficulty": {
+              "level": "medium",
+              "reason": "仅依据岗位名称与一般招聘经验推测，缺少明确任职要求，属于一般经验估计，不代表实际面试标准",
+              "preparation": [
+                "复习编程语言与数据结构基础",
+                "准备通用软件开发项目经历"
+              ]
+            }
+          }
+        ],
+        "note": "社招招聘列表，多为要求多年经验的岗位，与实习需求匹配度低；仅提取前3个具体职位。",
+        "basis": "search_excerpt",
+        "prompt_version": "2026-10-23.6"
+      }
+    }
+  ],
+  "counts": {
+    "sources": 22,
+    "positions": 32,
+    "relevant_positions": 19,
+    "positions_with_requirements": 3,
+    "predicted_difficulties": 19
+  },
+  "completed_at": "2026-10-23T14:23:11.501599+00:00"
+}

@@ -1,0 +1,245 @@
+{
+  "time": "2026-10-23T12:49:44.385742+00:00",
+  "mode": "live",
+  "input_kind": "explicitly synthetic resume/JD/answer",
+  "origin": "http://localhost:8082",
+  "username": "live_f0ad82f5c9654b15",
+  "checks": {
+    "login_and_live_capabilities": "passed",
+    "real_search_queue": "passed",
+    "real_resume_parse_and_known_fact_confirmation": "passed",
+    "real_model_synthetic_jd_parse": "passed",
+    "real_study_and_honest_no_source_fallback": "passed",
+    "real_answer_persisted_and_feedback": "passed",
+    "real_preparation": "passed"
+  },
+  "runs": [
+    {
+      "id": "69a85582-75c0-4441-bada-28047f59face",
+      "kind": "search",
+      "status": "succeeded",
+      "error_code": null,
+      "model": "deepseek-flash",
+      "prompt_version": "2026-10-23.3",
+      "result": {
+        "counts": {
+          "errors": 0,
+          "new_jobs": 0,
+          "raw_links": 3,
+          "unique_urls": 3,
+          "updated_jobs": 0,
+          "duplicate_links": 0,
+          "extracted_pages": 0,
+          "rejected_non_job": 0,
+          "partial_candidates": 3
+        },
+        "errors": [],
+        "queries": [
+          "Python 应用开发实习 杭州 internship "
+        ],
+        "counting_note": "raw_links 含重复；unique_urls 为去重线索；岗位/失败为处理结果，风险与资格另算"
+      },
+      "started_at": "2026-10-23T12:49:46.351156+00:00",
+      "completed_at": "2026-10-23T12:49:47.240977+00:00"
+    },
+    {
+      "id": "a0b473b1-e6b9-46a3-9f67-1f424df29864",
+      "kind": "resume_parse",
+      "status": "succeeded",
+      "error_code": null,
+      "model": "deepseek-flash",
+      "prompt_version": "2026-10-23.3",
+      "result": {
+        "resume_version_id": "b2423b4e-96b5-4a5c-ba75-26cb75ae9ec4",
+        "profile_version_id": "53c125dc-10d0-4e5e-8aea-5b650ae6a2c7"
+      },
+      "started_at": "2026-10-23T12:49:48.264200+00:00",
+      "completed_at": "2026-10-23T12:49:50.200829+00:00"
+    },
+    {
+      "id": "374eb542-d021-4146-aded-941ee033b5a9",
+      "kind": "job_import",
+      "status": "succeeded",
+      "error_code": null,
+      "model": "deepseek-flash",
+      "prompt_version": "2026-10-23.3",
+      "result": {
+        "errors": [],
+        "job_ids": [
+          "5925016f-4416-4600-b91d-1939ea1f8917"
+        ]
+      },
+      "started_at": "2026-10-23T12:49:51.221169+00:00",
+      "completed_at": "2026-10-23T12:49:56.038397+00:00"
+    },
+    {
+      "id": "1d4b7a70-aaa2-4cfe-8d6c-e22191f2238e",
+      "kind": "study",
+      "status": "succeeded",
+      "error_code": null,
+      "model": "deepseek-flash",
+      "prompt_version": "2026-10-23.3",
+      "result": {
+        "source_count": 5,
+        "readable_sources": 0,
+        "study_package_id": "abdee4e7-827b-46df-b719-75a6c5549630",
+        "independent_sources": 5
+      },
+      "started_at": "2026-10-23T12:49:57.058795+00:00",
+      "completed_at": "2026-10-23T12:50:13.623159+00:00"
+    },
+    {
+      "id": "c908187b-3d73-4853-ac59-9855fb5dc740",
+      "kind": "feedback",
+      "status": "succeeded",
+      "error_code": null,
+      "model": "deepseek-flash",
+      "prompt_version": "2026-10-23.3",
+      "result": {
+        "attempt_id": "f5a7f484-c8a5-48a6-8f41-9949121ec244",
+        "feedback_id": "ba54b663-894e-4b1c-b35d-e2a899e5db72"
+      },
+      "started_at": "2026-10-23T12:50:14.644757+00:00",
+      "completed_at": "2026-10-23T12:50:20.400404+00:00"
+    },
+    {
+      "id": "a8900d29-2f76-46de-95e3-e27fc0d6934c",
+      "kind": "material_prepare",
+      "status": "succeeded",
+      "error_code": null,
+      "model": "deepseek-flash",
+      "prompt_version": "2026-10-23.3",
+      "result": {
+        "bundle_id": "274d2695-c3a7-4700-ae98-0fae19008b3e"
+      },
+      "started_at": "2026-10-23T12:50:22.434359+00:00",
+      "completed_at": "2026-10-23T12:50:33.724971+00:00"
+    }
+  ],
+  "limitations": [
+    "Unknown recruitment domains remain metadata_only; search summaries are not complete JDs."
+  ],
+  "study_package_id": "abdee4e7-827b-46df-b719-75a6c5549630",
+  "completed_at": "2026-10-23T12:50:34.636723+00:00",
+  "calls": [
+    {
+      "id": "f56c2863-6b04-4caa-ab70-a44abfb0f735",
+      "run_id": "69a85582-75c0-4441-bada-28047f59face",
+      "provider": "search",
+      "step_key": "search:q00",
+      "model": null,
+      "response_model": null,
+      "prompt_version": "2026-10-23.3",
+      "status": "completed",
+      "usage": {
+        "credits": 1.0,
+        "input_tokens": null,
+        "output_tokens": null,
+        "response_model": null
+      },
+      "error_code": null
+    },
+    {
+      "id": "1b1fcaef-bcbf-4a40-901a-0bcba687e513",
+      "run_id": "a0b473b1-e6b9-46a3-9f67-1f424df29864",
+      "provider": "llm",
+      "step_key": "extract_facts",
+      "model": "deepseek-flash",
+      "response_model": "deepseek-flash",
+      "prompt_version": "2026-10-23.3",
+      "status": "completed",
+      "usage": {
+        "credits": null,
+        "input_tokens": 683,
+        "output_tokens": 91,
+        "response_model": "deepseek-flash"
+      },
+      "error_code": null
+    },
+    {
+      "id": "cde49dd6-e2d1-4769-a4af-4d051f227472",
+      "run_id": "374eb542-d021-4146-aded-941ee033b5a9",
+      "provider": "llm",
+      "step_key": "normalize:0",
+      "model": "deepseek-flash",
+      "response_model": "deepseek-flash",
+      "prompt_version": "2026-10-23.3",
+      "status": "completed",
+      "usage": {
+        "credits": null,
+        "input_tokens": 2514,
+        "output_tokens": 964,
+        "response_model": "deepseek-flash"
+      },
+      "error_code": null
+    },
+    {
+      "id": "1ac90392-0718-4999-aa80-093da52c672e",
+      "run_id": "1d4b7a70-aaa2-4cfe-8d6c-e22191f2238e",
+      "provider": "search",
+      "step_key": "interview:search",
+      "model": null,
+      "response_model": null,
+      "prompt_version": "2026-10-23.3",
+      "status": "completed",
+      "usage": {
+        "credits": 1.0,
+        "input_tokens": null,
+        "output_tokens": null,
+        "response_model": null
+      },
+      "error_code": null
+    },
+    {
+      "id": "53ab13a3-aca0-4fe7-b46c-b30616cb5973",
+      "run_id": "1d4b7a70-aaa2-4cfe-8d6c-e22191f2238e",
+      "provider": "llm",
+      "step_key": "generate_question_batch",
+      "model": "deepseek-flash",
+      "response_model": "deepseek-flash",
+      "prompt_version": "2026-10-23.3",
+      "status": "completed",
+      "usage": {
+        "credits": null,
+        "input_tokens": 3841,
+        "output_tokens": 2248,
+        "response_model": "deepseek-flash"
+      },
+      "error_code": null
+    },
+    {
+      "id": "091bd47c-1d7e-44e3-aacd-1e8f79b7a870",
+      "run_id": "c908187b-3d73-4853-ac59-9855fb5dc740",
+      "provider": "llm",
+      "step_key": "evaluate_by_rubric",
+      "model": "deepseek-flash",
+      "response_model": "deepseek-flash",
+      "prompt_version": "2026-10-23.3",
+      "status": "completed",
+      "usage": {
+        "credits": null,
+        "input_tokens": 1157,
+        "output_tokens": 656,
+        "response_model": "deepseek-flash"
+      },
+      "error_code": null
+    },
+    {
+      "id": "548dbb4e-566b-4331-adb6-cc3836f1b377",
+      "run_id": "a8900d29-2f76-46de-95e3-e27fc0d6934c",
+      "provider": "llm",
+      "step_key": "generate_tasks_and_claims",
+      "model": "deepseek-flash",
+      "response_model": "deepseek-flash",
+      "prompt_version": "2026-10-23.3",
+      "status": "completed",
+      "usage": {
+        "credits": null,
+        "input_tokens": 3666,
+        "output_tokens": 1840,
+        "response_model": "deepseek-flash"
+      },
+      "error_code": null
+    }
+  ]
+}

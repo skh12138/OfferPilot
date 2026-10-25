@@ -1,0 +1,219 @@
+{
+  "time": "2026-10-23T12:35:44.984752+00:00",
+  "purpose": "bounded public-source readability probe; no policy approval",
+  "sources": [
+    {
+      "domain": "jobs.bytedance.com",
+      "query": "site:jobs.bytedance.com \"Python\" \"实习\" \"职位描述\"",
+      "search_usage": {
+        "input_tokens": null,
+        "output_tokens": null,
+        "credits": 1.0,
+        "response_model": null
+      },
+      "candidates": [
+        {
+          "url": "https://jobs.bytedance.com/campus/m/position/detail/7290588080389753149?recomId=98d9dd8e-5862-11f0-94e3-b8599fd8b998&sourceJobId=7413750347137812763",
+          "title": "数据科学实习生- 抖音体验"
+        },
+        {
+          "url": "https://jobs.bytedance.com/campus/m/position/detail/7648929078736783621?recomId=4b4a9080-8862-11f1-9455-08c0eb83d32c&sourceJobId=7600376032197708037",
+          "title": "AI产品实习生（音视频方向）-飞书"
+        },
+        {
+          "url": "https://jobs.bytedance.com/campus/m/position/detail/7656697312995313925?recomId=475e37c0-7596-11f1-90bd-0c42a161c0c0&sourceJobId=7594858971730102533",
+          "title": "数据分析实习生-业务中台 - 字节跳动"
+        }
+      ],
+      "extract_usage": {
+        "input_tokens": null,
+        "output_tokens": null,
+        "credits": 0.0,
+        "response_model": null
+      },
+      "extract": [
+        {
+          "url": "https://jobs.bytedance.com/campus/m/position/detail/7290588080389753149?recomId=98d9dd8e-5862-11f0-94e3-b8599fd8b998&sourceJobId=7413750347137812763",
+          "characters": 0,
+          "status": "unavailable"
+        }
+      ],
+      "status": "unavailable"
+    },
+    {
+      "domain": "career.huawei.com",
+      "query": "site:career.huawei.com \"软件\" \"岗位职责\"",
+      "search_usage": {
+        "input_tokens": null,
+        "output_tokens": null,
+        "credits": 1.0,
+        "response_model": null
+      },
+      "candidates": [
+        {
+          "url": "https://career.huawei.com/cn/department-list",
+          "title": "部门列表"
+        },
+        {
+          "url": "https://career.huawei.com/cn/campus-recruitment",
+          "title": "校园招聘"
+        },
+        {
+          "url": "https://career.huawei.com/reccampportal/globle/huawei-special-recruitment.html",
+          "title": "华为面向全球招聘"
+        }
+      ],
+      "extract_usage": {
+        "input_tokens": null,
+        "output_tokens": null,
+        "credits": 0.0,
+        "response_model": null
+      },
+      "extract": [
+        {
+          "url": "https://career.huawei.com/cn/department-list",
+          "characters": 8380,
+          "status": "readable"
+        }
+      ],
+      "status": "readable"
+    },
+    {
+      "domain": "www.nowcoder.com",
+      "query": "site:www.nowcoder.com/discuss \"Python\" \"面经\"",
+      "search_usage": {
+        "input_tokens": null,
+        "output_tokens": null,
+        "credits": 1.0,
+        "response_model": null
+      },
+      "candidates": [
+        {
+          "url": "https://www.w3schools.com/python/python_intro.asp",
+          "title": "Introduction to Python"
+        },
+        {
+          "url": "https://www.online-python.com",
+          "title": "Online Python - IDE, Editor, Compiler, Interpreter"
+        },
+        {
+          "url": "https://www.python.org/downloads",
+          "title": "Download Python"
+        }
+      ],
+      "status": "no_target_result"
+    },
+    {
+      "domain": "jobs.bytedance.com",
+      "query": "site:jobs.bytedance.com/campus/position/ Python 实习",
+      "search_usage": {
+        "input_tokens": null,
+        "output_tokens": null,
+        "credits": 1.0,
+        "response_model": null
+      },
+      "candidates": [
+        {
+          "url": "https://jobs.bytedance.com/campus/position/7597711328433817909/detail",
+          "title": "算法实习生-飞书"
+        },
+        {
+          "url": "https://jobs.bytedance.com/campus/position/detail/7485630909229058311",
+          "title": "大语言模型算法实习生- Seed Model"
+        },
+        {
+          "url": "https://jobs.bytedance.com/campus/position/7236936176685304119/detail?recomId=8b23a808-0151-11ee-b03a-b8cef65c9bca&sourceJobId=7212578305483655481",
+          "title": "算法实习生-搜索 - 字节跳动"
+        }
+      ],
+      "extract_usage": {
+        "input_tokens": null,
+        "output_tokens": null,
+        "credits": 0.0,
+        "response_model": null
+      },
+      "extract": [
+        {
+          "url": "https://jobs.bytedance.com/campus/position/7597711328433817909/detail",
+          "characters": 0,
+          "status": "unavailable"
+        }
+      ]
+    },
+    {
+      "domain": "jobs.smartrecruiters.com",
+      "query": "site:jobs.smartrecruiters.com/BoschGroup Python intern Shanghai China",
+      "search_usage": {
+        "input_tokens": null,
+        "output_tokens": null,
+        "credits": 1.0,
+        "response_model": null
+      },
+      "candidates": [
+        {
+          "url": "https://jobs.smartrecruiters.com/BoschGroup/744000095392835-software-development-intern",
+          "title": "Bosch Group Software Development Intern"
+        },
+        {
+          "url": "https://jobs.smartrecruiters.com/BoschGroup/744000154989118-embedded-engineer-model-based-developer",
+          "title": "Bosch Group Embedded Engineer - Model based developer | SmartRecruiters"
+        },
+        {
+          "url": "https://jobs.smartrecruiters.com/BoschGroup/744000148361429-senior-ai-research-scientist-time-series-foundational-models",
+          "title": "Bosch Group Senior AI Research Scientist- Time-Series Foundational Models | SmartRecruiters"
+        }
+      ],
+      "extract_usage": {
+        "input_tokens": null,
+        "output_tokens": null,
+        "credits": 0.0,
+        "response_model": null
+      },
+      "extract": [
+        {
+          "url": "https://jobs.smartrecruiters.com/BoschGroup/744000095392835-software-development-intern",
+          "characters": 1282,
+          "status": "readable"
+        }
+      ]
+    },
+    {
+      "domain": "jobs.smartrecruiters.com",
+      "query": "Python 实习生 上海 中国 软件开发",
+      "search_depth": "advanced",
+      "include_domains": [
+        "jobs.smartrecruiters.com"
+      ],
+      "usage": {
+        "credits": 2
+      },
+      "candidates": [
+        {
+          "url": "https://jobs.smartrecruiters.com/VialtoPartners/743999912805409-intern-trainee-shanghai-china-",
+          "title": "Vialto Partners Intern / Trainee 实习生 (Shanghai, China ..."
+        },
+        {
+          "url": "https://jobs.smartrecruiters.com?company=FiddlersBarAndGrill",
+          "title": "SmartRecruiters Job Search"
+        },
+        {
+          "url": "https://jobs.smartrecruiters.com/HermanScott/83064230-research-assistant-content",
+          "title": "Herman Scott RESEARCH ASSISTANT – CONTENT | SmartRecruiters"
+        }
+      ],
+      "extract": [
+        {
+          "url": "https://jobs.smartrecruiters.com/VialtoPartners/743999912805409-intern-trainee-shanghai-china-",
+          "characters": 0,
+          "status": "unavailable"
+        }
+      ],
+      "extract_usage": {
+        "input_tokens": null,
+        "output_tokens": null,
+        "credits": 0.0,
+        "response_model": null
+      }
+    }
+  ]
+}

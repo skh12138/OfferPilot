@@ -1,0 +1,14 @@
+services:
+  api:
+    environment:
+      APP_MODE: demo
+      PUBLIC_ORIGIN: http://localhost:8081
+  worker:
+    environment:
+      APP_MODE: demo
+      PUBLIC_ORIGIN: http://localhost:8081
+  migrate:
+    environment:
+      APP_MODE: demo
+  web:
+    ports: !override ["127.0.0.1:8081:80"]

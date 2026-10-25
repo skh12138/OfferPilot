@@ -1,0 +1,58 @@
+name: offerpilot
+x-server: &server
+  build:
+    context: .
+    dockerfile: infra/server.Dockerfile
+  environment: &env
+    DATABASE_URL: postgresql+psycopg://offerpilot:${DB_PASSWORD:-offerpilot}@db:5432/offerpilot
+    APP_MODE: ${APP_MODE:-live}
+    ENVIRONMENT: ${ENVIRONMENT:-development}
+    PUBLIC_ORIGIN: ${PUBLIC_ORIGIN:-http://localhost:8080}
+    ALLOW_REGISTRATION: ${ALLOW_REGISTRATION:-false}
+    DEEPSEEK_API_KEY: ${DEEPSEEK_API_KEY:-}
+    TAVILY_API_KEY: ${TAVILY_API_KEY:-}
+    LLM_MODEL: ${LLM_MODEL:-deepseek-flash}
+    RUN_MAX_CALLS: ${RUN_MAX_CALLS:-50}
+    RUN_INPUT_TOKENS: ${RUN_INPUT_TOKENS:-80000}
+    RUN_OUTPUT_TOKENS: ${RUN_OUTPUT_TOKENS:-24000}
+    RUN_TIMEOUT_SECONDS: ${RUN_TIMEOUT_SECONDS:-600}
+    GLOBAL_RUN_CONCURRENCY: ${GLOBAL_RUN_CONCURRENCY:-2}
+    USER_RUN_CONCURRENCY: ${USER_RUN_CONCURRENCY:-1}
+    EXPORT_RETENTION_HOURS: ${EXPORT_RETENTION_HOURS:-24}
+  restart: unless-stopped
+services:
+  db:
+    image: postgres:17.6-bookworm@sha256:f3bd19c606e442c3d7bdfa8002e03fe260a1023351e0ea4598032022b68dd6e3
+    environment:
+      POSTGRES_USER: offerpilot
+      POSTGRES_PASSWORD: ${DB_PASSWORD:-offerpilot}
+      POSTGRES_DB: offerpilot
+    volumes: ["database:/var/lib/postgresql/data"]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U offerpilot"]
+      interval: 3s
+      timeout: 3s
+      retries: 30
+  migrate:
+    <<: *server
+    command: ["alembic", "-c", "apps/server/alembic.ini", "upgrade", "head"]
+    restart: "no"
+    depends_on:
+      db: {condition: service_healthy}
+  api:
+    <<: *server
+    depends_on:
+      migrate: {condition: service_completed_successfully}
+  worker:
+    <<: *server
+    command: ["python", "-m", "offerpilot.worker.main"]
+    depends_on:
+      migrate: {condition: service_completed_successfully}
+  web:
+    build:
+      context: .
+      dockerfile: infra/web.Dockerfile
+    ports: ["127.0.0.1:${WEB_PORT:-8080}:80"]
+    depends_on: [api]
+volumes:
+  database:

@@ -1,0 +1,23 @@
+{
+  "time": "2026-10-23T14:25:41.348986+00:00",
+  "origin": "http://localhost:8081",
+  "schema_head": "0010",
+  "prompt_version": "2026-10-23.6",
+  "database_volume": "preserved",
+  "accounts": "preserved",
+  "/api/v1/health/ready": {
+    "status": "ready"
+  },
+  "/api/v1/capabilities": {
+    "mode": "live",
+    "model_available": true,
+    "search_available": true,
+    "model": "deepseek-flash",
+    "max_compare": 4,
+    "max_text": 50000
+  },
+  "/": {
+    "http_status": 200,
+    "app_html": true
+  }
+}

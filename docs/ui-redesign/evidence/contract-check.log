@@ -1,0 +1,9 @@
+.venv/bin/python scripts/contract_check.py
+.venv/bin/python scripts/openapi.py
+pnpm contract
+$ openapi-typescript contracts/openapi.json -o apps/web/src/api/schema.d.ts
+✨ openapi-typescript 7.13.0
+🚀 contracts/openapi.json → apps/web/src/api/schema.d.ts [146.6ms]
+pnpm --dir apps/web exec prettier --write src/api/schema.d.ts
+src/api/schema.d.ts 699ms
+OpenAPI and generated TypeScript are synchronized

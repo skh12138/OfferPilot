@@ -1,0 +1,78 @@
+{
+  "time": "2026-10-23T12:41:37.797893+00:00",
+  "mode": "live",
+  "input_kind": "explicitly synthetic resume/JD/answer",
+  "origin": "http://localhost:8082",
+  "username": "live_f0ad82f5c9654b15",
+  "checks": {
+    "login_and_live_capabilities": "passed",
+    "real_search_queue": "passed",
+    "real_resume_parse_and_known_fact_confirmation": "passed"
+  },
+  "runs": [
+    {
+      "id": "539ce280-4336-4535-a1b0-e4030cbdded9",
+      "kind": "search",
+      "status": "succeeded",
+      "error_code": null,
+      "model": null,
+      "prompt_version": null,
+      "result": {
+        "counts": {
+          "errors": 0,
+          "new_jobs": 0,
+          "raw_links": 3,
+          "unique_urls": 3,
+          "updated_jobs": 0,
+          "duplicate_links": 0,
+          "extracted_pages": 0,
+          "rejected_non_job": 0,
+          "partial_candidates": 3
+        },
+        "errors": [],
+        "queries": [
+          "Python 应用开发实习 杭州 internship "
+        ],
+        "counting_note": "raw_links 含重复；unique_urls 为去重线索；岗位/失败为处理结果，风险与资格另算"
+      }
+    },
+    {
+      "id": "b7355d3f-480c-4510-a5f1-ae7c1b5cdc87",
+      "kind": "resume_parse",
+      "status": "succeeded",
+      "error_code": null,
+      "model": null,
+      "prompt_version": null,
+      "result": {
+        "resume_version_id": "296ec846-0db3-4546-863e-2ccbd674d62b",
+        "profile_version_id": "5dc63db9-761f-4717-b75d-32536ccbd955"
+      }
+    },
+    {
+      "id": "114d4881-003d-43b2-922b-e52d693a0303",
+      "kind": "job_import",
+      "status": "failed",
+      "error_code": null,
+      "model": null,
+      "prompt_version": null,
+      "result": {
+        "errors": [
+          {
+            "row": 1,
+            "code": "model_semantic_invalid",
+            "message": "结构或事实校验失败；可手工编辑后重试"
+          }
+        ],
+        "job_ids": []
+      }
+    }
+  ],
+  "limitations": [
+    "Unknown recruitment domains remain metadata_only; search summaries are not complete JDs."
+  ],
+  "failure": {
+    "type": "AssertionError",
+    "message": "Job extraction failed"
+  },
+  "completed_at": "2026-10-23T12:41:52.583177+00:00"
+}

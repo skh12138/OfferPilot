@@ -1,0 +1,20 @@
+{
+  "recorded_at": "2026-10-23T11:40:12.325635+00:00",
+  "status": "offline_verified",
+  "command": "PLAYWRIGHT_CHANNEL=chrome make verify",
+  "exit_code": 0,
+  "backend_tests": 93,
+  "frontend_tests": 3,
+  "browser_flows": 4,
+  "migrations_head": "0009",
+  "openapi_operations": 111,
+  "main_responsive_screenshots": 21,
+  "compose_browser_smoke": "docs/compose-evidence.json",
+  "live": {
+    "status": "blocked_external",
+    "command": "PYTHONPATH=apps/server/src .venv/bin/python scripts/live.py",
+    "exit_code": 1,
+    "reason": "Missing DEEPSEEK_API_KEY and TAVILY_API_KEY; no fixtures fallback"
+  },
+  "remote_ci_executed": false
+}

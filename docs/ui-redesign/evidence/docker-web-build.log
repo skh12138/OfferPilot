@@ -1,0 +1,104 @@
+#1 [internal] load local bake definitions
+#1 reading from stdin 1.49kB done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from web.Dockerfile
+#2 transferring dockerfile: 34B 0.1s
+#2 transferring dockerfile: 715B 0.1s done
+#2 DONE 0.1s
+
+#3 [internal] load metadata for docker.io/library/node:24.19.0-bookworm-slim@sha256:a9f5f7c91a432850b2a8a7797adf5eadb6c733ceed61167806cee7ea7fbc29df
+#3 DONE 0.0s
+
+#4 [internal] load metadata for docker.io/library/caddy:2.10.2-alpine@sha256:4c6e91c6ed0e2fa03efd5b44747b625fec79bc9cd06ac5235a779726618e530d
+#4 DONE 0.0s
+
+#5 [internal] load .dockerignore
+#5 transferring context: 33B
+#5 transferring context: 178B 0.6s done
+#5 DONE 0.6s
+
+#6 [build 1/8] FROM docker.io/library/node:24.19.0-bookworm-slim@sha256:a9f5f7c91a432850b2a8a7797adf5eadb6c733ceed61167806cee7ea7fbc29df
+#6 DONE 0.0s
+
+#7 [stage-1 1/3] FROM docker.io/library/caddy:2.10.2-alpine@sha256:4c6e91c6ed0e2fa03efd5b44747b625fec79bc9cd06ac5235a779726618e530d
+#7 DONE 0.0s
+
+#8 [internal] load build context
+#8 transferring context: 207.10kB 0.2s done
+#8 DONE 0.2s
+
+#9 [build 2/8] WORKDIR /app
+#9 CACHED
+
+#10 [build 3/8] RUN npm install -g pnpm@11.25.0 && pnpm config set store-dir /pnpm/store
+#10 CACHED
+
+#11 [build 4/8] COPY package.json pnpm-lock.yaml pnpm-workspace.yaml ./
+#11 CACHED
+
+#12 [build 5/8] COPY apps/web/package.json apps/web/package.json
+#12 CACHED
+
+#13 [build 6/8] RUN --mount=type=cache,id=offerpilot-pnpm,target=/pnpm/store pnpm --filter @offerpilot/web install --frozen-lockfile --prefer-offline
+#13 CACHED
+
+#14 [build 7/8] COPY apps/web apps/web
+#14 DONE 0.0s
+
+#15 [build 8/8] RUN pnpm --dir apps/web build
+#15 0.408 $ vue-tsc --noEmit && vite build
+#15 3.270 vite v7.3.7 building client environment for production...
+#15 3.307 transforming...
+#15 6.000 ✓ 1750 modules transformed.
+#15 6.183 rendering chunks...
+#15 6.350 computing gzip size...
+#15 6.368 dist/index.html                                                             0.52 kB │ gzip:   0.34 kB
+#15 6.368 dist/assets/index-Cc8OznDb.css                                            383.66 kB │ gzip:  53.30 kB
+#15 6.368 dist/assets/dates-DH8mVIlm.js                                               0.38 kB │ gzip:   0.31 kB
+#15 6.368 dist/assets/PageHeader.vue_vue_type_script_setup_true_lang-nn2oH4in.js      0.45 kB │ gzip:   0.30 kB
+#15 6.368 dist/assets/AsyncState.vue_vue_type_script_setup_true_lang-6dSd3oJq.js      0.93 kB │ gzip:   0.65 kB
+#15 6.368 dist/assets/DraftDrawer.vue_vue_type_script_setup_true_lang-Cx7hpeb3.js     1.05 kB │ gzip:   0.73 kB
+#15 6.368 dist/assets/SplitPreview.vue_vue_type_script_setup_true_lang-DLP3BBe4.js    1.14 kB │ gzip:   0.77 kB
+#15 6.368 dist/assets/navigation-Ds4_F1PD.js                                          1.64 kB │ gzip:   0.87 kB
+#15 6.368 dist/assets/ReportForm.vue_vue_type_script_setup_true_lang-DU0jBVBS.js      1.76 kB │ gzip:   0.96 kB
+#15 6.368 dist/assets/Login-BErqmx09.js                                               1.80 kB │ gzip:   1.09 kB
+#15 6.368 dist/assets/JobReading.vue_vue_type_script_setup_true_lang-CtTIN0xV.js      3.46 kB │ gzip:   1.65 kB
+#15 6.368 dist/assets/RunStatus.vue_vue_type_script_setup_true_lang-B53De0SB.js       5.14 kB │ gzip:   2.52 kB
+#15 6.368 dist/assets/Operations-CeAhzQmX.js                                          5.90 kB │ gzip:   2.51 kB
+#15 6.368 dist/assets/Today-B1Yknks6.js                                               7.01 kB │ gzip:   2.98 kB
+#15 6.368 dist/assets/Applications-BZda4QTd.js                                        7.45 kB │ gzip:   3.12 kB
+#15 6.368 dist/assets/Study-DAMNfKiw.js                                               7.50 kB │ gzip:   2.96 kB
+#15 6.368 dist/assets/JobDetail-Cux-3hzW.js                                          10.43 kB │ gzip:   4.29 kB
+#15 6.368 dist/assets/Reviews-azpMFVq-.js                                            13.25 kB │ gzip:   4.52 kB
+#15 6.368 dist/assets/StudyDetail-DTe8BwtY.js                                        13.58 kB │ gzip:   5.38 kB
+#15 6.368 dist/assets/Jobs-NBqIZNVE.js                                               14.33 kB │ gzip:   5.27 kB
+#15 6.368 dist/assets/Profile-B--vPlGp.js                                            18.78 kB │ gzip:   6.54 kB
+#15 6.368 dist/assets/Discover-oAf-6fpL.js                                           20.89 kB │ gzip:   7.73 kB
+#15 6.368 dist/assets/index-CDf7ogY3.js                                              26.87 kB │ gzip:  11.77 kB
+#15 6.368 dist/assets/ApplicationDetail-DcZRSTKi.js                                  29.96 kB │ gzip:   9.16 kB
+#15 6.368 dist/assets/vue-BTey_n4V.js                                               149.38 kB │ gzip:  54.64 kB
+#15 6.368 dist/assets/element-CwyQR7ep.js                                           917.21 kB │ gzip: 295.77 kB
+#15 6.368 
+#15 6.368 (!) Some chunks are larger than 500 kB after minification. Consider:
+#15 6.368 - Using dynamic import() to code-split the application
+#15 6.368 - Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+#15 6.368 - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+#15 6.368 ✓ built in 3.08s
+#15 DONE 6.4s
+
+#16 [stage-1 2/3] COPY infra/Caddyfile /etc/caddy/Caddyfile
+#16 CACHED
+
+#17 [stage-1 3/3] COPY --from=build /app/apps/web/dist /srv
+#17 DONE 0.0s
+
+#18 exporting to image
+#18 exporting layers done
+#18 writing image sha256:71b0684bbe6d5dd691141d2a74069231de662d0753c8bed0f4ff80a0a7f00d50 done
+#18 naming to docker.io/library/offerpilot-acceptance-web done
+#18 DONE 0.0s
+
+#19 resolving provenance for metadata file
+#19 DONE 0.0s
+ offerpilot-acceptance-web  Built

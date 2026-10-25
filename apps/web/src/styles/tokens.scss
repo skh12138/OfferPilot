@@ -1,0 +1,43 @@
+:root {
+  --op-bg-canvas: #f7f5ef;
+  --op-bg-sidebar: #eeece5;
+  --op-bg-surface: #fffdf8;
+  --op-bg-hover: #f0f1e9;
+  --op-bg-selected: #e6ece3;
+  --op-text-primary: #243d35;
+  --op-text-secondary: #5e695f;
+  --op-text-placeholder: #667168;
+  --op-accent: #243d35;
+  --op-accent-hover: #1c322b;
+  --op-accent-soft: #7a8d78;
+  --op-text-on-accent: #fffdf8;
+  --op-border-subtle: #dedfd5;
+  --op-border-control: #6f7f72;
+  --op-focus-ring: #365d4c;
+  --op-success-text: #315b43;
+  --op-success-bg: #eaf1e8;
+  --op-warning-text: #8a5a19;
+  --op-warning-bg: #fbf1dd;
+  --op-danger-text: #a63d35;
+  --op-danger-bg: #fbefeb;
+  --op-info-text: #4f6259;
+  --op-info-bg: #edf0ea;
+  --op-font-body:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
+    "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+  --op-font-display:
+    "Songti SC", "STSong", "Noto Serif CJK SC", "Source Han Serif SC", serif;
+  --op-radius: 10px;
+  --op-space-1: 4px;
+  --op-space-2: 8px;
+  --op-space-3: 12px;
+  --op-space-4: 16px;
+  --op-space-6: 24px;
+  --op-space-8: 32px;
+  // Existing feature classes share these aliases during the presentation refactor.
+  --ink: var(--op-text-primary);
+  --muted: var(--op-text-secondary);
+  --line: var(--op-border-subtle);
+  --surface: var(--op-bg-surface);
+  --canvas: var(--op-bg-canvas);
+}

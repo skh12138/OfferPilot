@@ -1,0 +1,178 @@
+@use "sass:color";
+:root {
+  @each $name,
+    $value
+      in (
+        primary: #243d35,
+        success: #315b43,
+        warning: #8a5a19,
+        danger: #a63d35,
+        error: #a63d35,
+        info: #4f6259
+      )
+  {
+    --el-color-#{$name}: #{$value};
+    --el-color-#{$name}-dark-2: #{color.mix(#000, $value, 15%)};
+    @each $n in (3, 5, 7, 8, 9) {
+      --el-color-#{$name}-light-#{$n}: #{color.mix(#fffdf8, $value, $n * 10%)};
+    }
+  }
+  --el-font-family: var(--op-font-body);
+  --el-font-size-base: 14px;
+  --el-text-color-primary: var(--op-text-primary);
+  --el-text-color-regular: var(--op-text-primary);
+  --el-text-color-secondary: var(--op-text-secondary);
+  --el-text-color-placeholder: var(--op-text-placeholder);
+  --el-text-color-disabled: var(--op-text-secondary);
+  --el-bg-color: var(--op-bg-surface);
+  --el-bg-color-page: var(--op-bg-canvas);
+  --el-bg-color-overlay: var(--op-bg-surface);
+  --el-fill-color: var(--op-bg-sidebar);
+  --el-fill-color-light: var(--op-bg-hover);
+  --el-fill-color-lighter: var(--op-bg-canvas);
+  --el-fill-color-extra-light: var(--op-bg-canvas);
+  --el-fill-color-dark: var(--op-bg-selected);
+  --el-fill-color-darker: var(--op-border-subtle);
+  --el-fill-color-blank: var(--op-bg-surface);
+  --el-border-color: var(--op-border-control);
+  --el-border-color-light: var(--op-border-subtle);
+  --el-border-color-lighter: var(--op-border-subtle);
+  --el-border-color-extra-light: var(--op-border-subtle);
+  --el-border-color-dark: var(--op-border-control);
+  --el-border-color-darker: var(--op-accent);
+  --el-disabled-bg-color: var(--op-bg-sidebar);
+  --el-disabled-text-color: var(--op-text-secondary);
+  --el-disabled-border-color: var(--op-border-subtle);
+  --el-mask-color: rgba(36, 61, 53, 0.45);
+  --el-mask-color-extra-light: rgba(247, 245, 239, 0.8);
+  --el-border-radius-base: 8px;
+  --el-border-radius-small: 6px;
+  --el-component-size: 38px;
+  --el-box-shadow: 0 8px 28px rgba(36, 61, 53, 0.12);
+  --el-box-shadow-light: 0 6px 20px rgba(36, 61, 53, 0.08);
+  --el-box-shadow-lighter: 0 4px 14px rgba(36, 61, 53, 0.06);
+  --el-box-shadow-dark: 0 12px 32px rgba(36, 61, 53, 0.16);
+}
+.el-button {
+  font-weight: 500;
+}
+.el-button + .el-button {
+  margin-left: 0;
+}
+.el-button.is-disabled,
+.el-button.is-disabled:hover {
+  color: var(--op-text-secondary);
+  background: var(--op-bg-sidebar);
+  border-color: var(--op-border-subtle);
+}
+.el-tag {
+  --el-tag-text-color: var(--op-text-secondary);
+  --el-tag-bg-color: var(--op-info-bg);
+  --el-tag-border-color: var(--op-border-subtle);
+  border-radius: 5px;
+}
+@each $name in (success, warning, danger, info) {
+  .el-tag--#{$name},
+  .el-alert--#{$name}.is-light {
+    color: var(--op-#{$name}-text);
+    background: var(--op-#{$name}-bg);
+  }
+}
+.el-alert {
+  margin: 12px 0;
+  border-radius: 8px;
+}
+.el-alert__title {
+  line-height: 1.65;
+}
+.el-dialog {
+  --el-dialog-width: min(640px, calc(100vw - 32px));
+  border-radius: 14px;
+  padding: 24px;
+}
+.el-drawer {
+  border-radius: 14px 0 0 14px;
+  max-width: 100vw;
+}
+.el-drawer__header {
+  margin-bottom: 0;
+  padding: 24px;
+  color: var(--op-text-primary);
+  border-bottom: 1px solid var(--line);
+}
+.el-drawer__title {
+  font-size: 19px;
+  font-weight: 600;
+}
+.el-drawer__body {
+  padding: 24px;
+}
+.el-overlay {
+  backdrop-filter: none;
+}
+.el-form-item__label {
+  font-weight: 500;
+}
+.el-select,
+.el-date-editor.el-input,
+.el-input-number {
+  max-width: 100%;
+}
+.el-tabs__nav-wrap::after {
+  height: 1px;
+}
+.el-table {
+  --el-table-header-bg-color: var(--op-bg-hover);
+  --el-table-row-hover-bg-color: var(--op-bg-hover);
+  --el-table-border-color: var(--op-border-subtle);
+}
+.el-radio-button__inner {
+  box-shadow: none;
+}
+.el-collapse {
+  --el-collapse-header-bg-color: transparent;
+  --el-collapse-content-bg-color: transparent;
+}
+.el-message-box {
+  --el-messagebox-width: min(420px, calc(100vw - 32px));
+}
+.el-popper,
+.el-select-dropdown,
+.el-picker-panel,
+.el-tooltip__trigger {
+  font-family: var(--op-font-body);
+}
+@media (max-width: 767px) {
+  .el-button,
+  .el-input__wrapper,
+  .el-select__wrapper,
+  .el-checkbox,
+  .el-radio,
+  .el-tabs__item,
+  .el-radio-button__inner {
+    min-height: 44px;
+  }
+  .el-radio-button__inner {
+    display: inline-flex;
+    align-items: center;
+  }
+  .el-drawer {
+    border-radius: 0;
+  }
+  .el-drawer__header,
+  .el-drawer__body {
+    padding: 16px;
+  }
+  .el-dialog {
+    width: calc(100vw - 24px);
+    padding: 20px;
+  }
+}
+.el-checkbox:has(:focus-visible),
+.el-radio:has(:focus-visible) {
+  outline: 2px solid var(--op-focus-ring);
+  outline-offset: 3px;
+}
+:root {
+  --el-color-white: var(--op-text-on-accent);
+}

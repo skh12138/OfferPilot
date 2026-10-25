@@ -1,0 +1,20 @@
+[
+  {
+    "id": "synthetic-resume-1",
+    "synthetic": true,
+    "template_group": "frontend",
+    "text": "使用 Vue3 完成任务列表与筛选。\n参与 API 集成。\n计划学习 Agent。"
+  },
+  {
+    "id": "synthetic-resume-2",
+    "synthetic": true,
+    "template_group": "backend",
+    "text": "使用 Python 完成合成 API 原型。\n使用 SQL 校验重复提交。\n没有企业生产经验。"
+  },
+  {
+    "id": "synthetic-resume-3",
+    "synthetic": true,
+    "template_group": "sparse-disputed",
+    "text": "计划搭建 RAG 项目。\n某项指标尚未核实。"
+  }
+]

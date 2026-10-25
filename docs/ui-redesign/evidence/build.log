@@ -1,0 +1,38 @@
+$ vue-tsc --noEmit && vite build
+vite v7.3.7 building client environment for production...
+transforming...
+✓ 1750 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                                                             0.52 kB │ gzip:   0.34 kB
+dist/assets/index-Cc8OznDb.css                                            383.66 kB │ gzip:  53.30 kB
+dist/assets/dates-DH8mVIlm.js                                               0.38 kB │ gzip:   0.31 kB
+dist/assets/PageHeader.vue_vue_type_script_setup_true_lang-nn2oH4in.js      0.45 kB │ gzip:   0.30 kB
+dist/assets/AsyncState.vue_vue_type_script_setup_true_lang-6dSd3oJq.js      0.93 kB │ gzip:   0.65 kB
+dist/assets/DraftDrawer.vue_vue_type_script_setup_true_lang-Cx7hpeb3.js     1.05 kB │ gzip:   0.73 kB
+dist/assets/SplitPreview.vue_vue_type_script_setup_true_lang-DLP3BBe4.js    1.14 kB │ gzip:   0.77 kB
+dist/assets/navigation-Ds4_F1PD.js                                          1.64 kB │ gzip:   0.87 kB
+dist/assets/ReportForm.vue_vue_type_script_setup_true_lang-DU0jBVBS.js      1.76 kB │ gzip:   0.96 kB
+dist/assets/Login-BErqmx09.js                                               1.80 kB │ gzip:   1.09 kB
+dist/assets/JobReading.vue_vue_type_script_setup_true_lang-CtTIN0xV.js      3.46 kB │ gzip:   1.65 kB
+dist/assets/RunStatus.vue_vue_type_script_setup_true_lang-B53De0SB.js       5.14 kB │ gzip:   2.52 kB
+dist/assets/Operations-CeAhzQmX.js                                          5.90 kB │ gzip:   2.51 kB
+dist/assets/Today-B1Yknks6.js                                               7.01 kB │ gzip:   2.98 kB
+dist/assets/Applications-BZda4QTd.js                                        7.45 kB │ gzip:   3.12 kB
+dist/assets/Study-DAMNfKiw.js                                               7.50 kB │ gzip:   2.96 kB
+dist/assets/JobDetail-Cux-3hzW.js                                          10.43 kB │ gzip:   4.29 kB
+dist/assets/Reviews-azpMFVq-.js                                            13.25 kB │ gzip:   4.52 kB
+dist/assets/StudyDetail-DTe8BwtY.js                                        13.58 kB │ gzip:   5.38 kB
+dist/assets/Jobs-NBqIZNVE.js                                               14.33 kB │ gzip:   5.27 kB
+dist/assets/Profile-B--vPlGp.js                                            18.78 kB │ gzip:   6.54 kB
+dist/assets/Discover-oAf-6fpL.js                                           20.89 kB │ gzip:   7.73 kB
+dist/assets/index-CDf7ogY3.js                                              26.87 kB │ gzip:  11.77 kB
+dist/assets/ApplicationDetail-DcZRSTKi.js                                  29.96 kB │ gzip:   9.16 kB
+dist/assets/vue-BTey_n4V.js                                               149.38 kB │ gzip:  54.64 kB
+dist/assets/element-CwyQR7ep.js                                           917.21 kB │ gzip: 295.77 kB
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 9.94s

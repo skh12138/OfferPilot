@@ -1,0 +1,10 @@
+{
+  "time": "2026-10-23T12:56:40.284790+00:00",
+  "command": "PLAYWRIGHT_CHANNEL=chrome make verify",
+  "exit_code": 0,
+  "backend": 94,
+  "frontend": 3,
+  "browser": 4,
+  "prompt_version": "2026-10-23.3",
+  "reason": "Live extraction identified missing paragraph mapping; controlled task instructions and bounded error detail added"
+}

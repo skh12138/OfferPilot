@@ -1,0 +1,95 @@
+.venv/bin/ruff check apps/server/src
+All checks passed!
+.venv/bin/ruff format --check apps/server/src
+98 files already formatted
+.venv/bin/mypy
+Success: no issues found in 98 source files
+pnpm --dir apps/web check
+$ vue-tsc --noEmit && eslint . && prettier --check src tests
+Checking formatting...
+All matched files use Prettier code style!
+.venv/bin/pytest apps/server/tests/unit apps/server/tests/integration apps/server/tests/contract -q --tb=short
+........................................................................ [ 76%]
+......................                                                   [100%]
+94 passed in 12.90s
+pnpm --dir apps/web test
+$ vitest run
+
+ RUN  v4.1.12 <workspace>/apps/web
+
+
+ Test Files  2 passed (2)
+      Tests  3 passed (3)
+   Start at  20:48:34
+   Duration  18.48s (transform 781ms, setup 0ms, import 14.04s, tests 40ms, environment 9.30s)
+
+.venv/bin/python scripts/e2e.py
+[WebServer] INFO:     Started server process [78429]
+[WebServer] INFO:     Waiting for application startup.
+[WebServer] INFO:     Application startup complete.
+[WebServer] INFO:     Uvicorn running on http://127.0.0.1:8011 (Press CTRL+C to quit)
+[WebServer] (node:78443) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] $ vite --host 127.0.0.1 --port 5179
+[WebServer] (node:78461) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 4 tests using 1 worker
+
+(node:78474) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/e2e/flows.spec.ts:5:5 › E1 搜索、校对、申请、实际投递、旧材料保留 (7.0s)
+  ✓  2 tests/e2e/flows.spec.ts:28:5 › E2 外链不推进、无变化查询、直接技术面、改期、待办与复盘 (3.8s)
+  ✓  3 tests/e2e/flows.spec.ts:44:5 › E3 训练、来源、采用、作答反馈、复习、Offer 与资料删除 (9.9s)
+  ✓  4 tests/e2e/flows.spec.ts:62:5 › 刷新恢复、退出缓存与 390/768/1440 页面截图 (6.6s)
+
+  4 passed (35.5s)
+pnpm build
+$ pnpm --dir apps/web build
+$ vue-tsc --noEmit && vite build
+vite v7.3.7 building client environment for production...
+transforming...
+✓ 1726 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                                                           0.52 kB │ gzip:   0.34 kB
+dist/assets/index-DsUrlUaX.css                                          364.68 kB │ gzip:  49.27 kB
+dist/assets/clone-BlXVfDIu.js                                             0.07 kB │ gzip:   0.08 kB
+dist/assets/action-4bgkczDm.js                                            0.34 kB │ gzip:   0.30 kB
+dist/assets/ReportForm.vue_vue_type_script_setup_true_lang-BAu8GDkM.js    1.82 kB │ gzip:   1.00 kB
+dist/assets/Login-BEJB0Tj7.js                                             1.83 kB │ gzip:   1.11 kB
+dist/assets/RunStatus.vue_vue_type_script_setup_true_lang-BZrnlEjF.js     3.16 kB │ gzip:   1.61 kB
+dist/assets/Applications-uu8PsEBG.js                                      4.74 kB │ gzip:   2.27 kB
+dist/assets/Operations-DCLNW-ZK.js                                        5.31 kB │ gzip:   2.30 kB
+dist/assets/Today-235ZkbB_.js                                             6.02 kB │ gzip:   2.59 kB
+dist/assets/Discover-DrGCqj5W.js                                          6.05 kB │ gzip:   2.80 kB
+dist/assets/Study-bIOPI3P-.js                                             6.44 kB │ gzip:   2.66 kB
+dist/assets/JobDetail-Mtu07YKG.js                                         8.81 kB │ gzip:   3.70 kB
+dist/assets/StudyDetail-Bxr7jQtN.js                                       9.41 kB │ gzip:   3.75 kB
+dist/assets/Reviews-kb1lpcYW.js                                          10.34 kB │ gzip:   3.59 kB
+dist/assets/Jobs-B42InyTZ.js                                             10.56 kB │ gzip:   4.14 kB
+dist/assets/Profile-Bh8S79AM.js                                          14.70 kB │ gzip:   5.40 kB
+dist/assets/index-DNngLnxg.js                                            16.54 kB │ gzip:   7.24 kB
+dist/assets/ApplicationDetail-B654qlD0.js                                24.10 kB │ gzip:   7.62 kB
+dist/assets/vue-DSK9ipJ9.js                                             149.18 kB │ gzip:  54.55 kB
+dist/assets/element-Bu32EImw.js                                         917.21 kB │ gzip: 295.77 kB
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 10.62s
+.tools/python/bin/uv build --wheel --out-dir .local/dist
+Building wheel...
+Successfully built .local/dist/offerpilot-0.1.0-py3-none-any.whl
+.venv/bin/python scripts/validate_deployment.py
+Deployment config validated; container image build is checked separately by CI/Compose acceptance.
+.venv/bin/python scripts/contract_check.py
+.venv/bin/python scripts/openapi.py
+pnpm contract
+$ openapi-typescript contracts/openapi.json -o apps/web/src/api/schema.d.ts
+✨ openapi-typescript 7.13.0
+🚀 contracts/openapi.json → apps/web/src/api/schema.d.ts [131.3ms]
+pnpm --dir apps/web exec prettier --write src/api/schema.d.ts
+src/api/schema.d.ts 227ms
+OpenAPI and generated TypeScript are synchronized

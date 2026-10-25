@@ -1,0 +1,590 @@
+{
+  "started_at": "2026-10-23T14:08:06.554631+00:00",
+  "mode": "live",
+  "origin": "http://localhost:8082",
+  "input": "帮我找找杭州开发相关实习，优先后端或Python",
+  "checks": {
+    "private_model_consent_remains_false": true,
+    "real_queue_completed": true,
+    "multiple_source_linked_cards": true,
+    "requirements_available": true,
+    "separate_ai_predictions": true
+  },
+  "limitations": [
+    "Search excerpts are public source evidence, not a full JD. Live availability and all hiring requirements still require the original site.",
+    "Difficulty is a model prediction based on public evidence, not a measured interview pass rate or a personal fit score."
+  ],
+  "run": {
+    "id": "03e5a78d-4639-4067-8823-64234debcd96",
+    "kind": "search",
+    "status": "succeeded",
+    "error_code": null,
+    "model": null,
+    "prompt_version": null,
+    "result": {
+      "counts": {
+        "errors": 0,
+        "new_jobs": 0,
+        "raw_links": 16,
+        "unique_urls": 12,
+        "updated_jobs": 0,
+        "duplicate_links": 4,
+        "extracted_pages": 0,
+        "rejected_non_job": 0,
+        "partial_candidates": 12,
+        "organization_errors": 0,
+        "organized_positions": 11,
+        "organized_candidates": 12,
+        "unique_opportunities": 10
+      },
+      "errors": [],
+      "queries": [
+        "开发 后端 Python 杭州 实习生  招聘 岗位职责 任职要求",
+        "开发 后端 Python 杭州 实习生  后端开发 招聘"
+      ],
+      "counting_note": "raw_links 含重复；unique_urls 为去重线索；岗位/失败为处理结果，风险与资格另算",
+      "resolved_spec": {
+        "cities": [
+          "杭州"
+        ],
+        "keywords": "开发 后端 Python",
+        "confirmed": true,
+        "max_queries": 2,
+        "max_results": 8,
+        "max_extracts": 2,
+        "raw_keywords": "帮我找找杭州开发相关实习，优先后端或Python",
+        "days_per_week": null,
+        "employment_type": "internship",
+        "natural_language": false
+      }
+    }
+  },
+  "candidates": [
+    {
+      "id": "061a5401-ec71-43c3-9904-eb836866196c",
+      "url": "https://www.liepin.com/city-hz/career/542",
+      "title": "【杭州后端开发招聘_杭州招聘后端开发人才】-杭州猎聘",
+      "summary": "【 杭州 】\n\n  15-25k·14薪\n\n  经验不限 大专\n\n  某国内世界500强通信设备公司\n\n  某国内世界500强通信设备公司\n\n  通信设备,电子/半导体/集成电路 融资未公开 10000人以上\n\n  \n\n  林女士\n\n  招聘者\n C++软件工程师\n\n  【 拱墅区 】\n\n  15-30k\n\n  经验不限 本科\n\n  某深圳世界500强公司\n\n  某深圳世界500强公司\n\n  通信设备,智能硬件/消费电子 战略融资 10000人以上\n\n  \n\n  张女士\n\n  hr\n （90M0153297）software engineer\n\n  【 西湖区 】\n\n  30-50k·15薪\n\n  2年以上 本科\n\n  某知名公司\n\n  某知名公司\n\n  学术/科研\n\n  \n\n  黄先生\n\n  Senior Consultant\n Python软件开发工程师\n\n  【 杭州 】\n\n  14-25k\n\n  经验不限 学历不限\n\n  某深圳大型通信设备公司\n\n  某深圳大型通信设备公司\n\n  通信设备,智能硬件/消费电子 战略融资 10000人以上\n\n  \n\n  胡女士\n\n  猎头顾问\n c++工程师（所有量化岗位都招）\n\n  【 杭州 】\n\n  30-50k·18薪\n\n  经验不限 本科\n\n  某知名公司\n\n  某知名公司\n\n  基金/证券/期货 不需要融资 50-99人\n\n  \n\n  余女士\n\n  猎头顾问\n 智驾数据闭环/AI infra/分布式计算-负责人\n\n  【 杭州 】\n\n  70-100k·16薪\n\n  10年以上 本科\n\n  某北京大型人工智能公司\n\n  某北京大型人工智能公司\n\n  人工智能 C轮融资 500-999人\n\n  \n\n  付梦美\n\n  资深猎头顾问\n 高级全栈工程师（AI）hz\n\n  【 杭州 】\n\n  25-30k·13薪 [...] 硕磐智能\n\n  计算机软件 B轮融资 100-499人\n\n  \n\n  周先生\n 音频软件工程师(J13834)\n\n  【 杭州-西兴 】\n\n  17-35k·14薪\n\n  3-5年 本科 年终奖金五险一金通讯津贴餐费补贴 零跑科技\n\n  零跑科技\n\n  互联网,新能源汽车,整车制造 已上市 10000人以上\n\n  \n\n  祝女士\n\n  HRBP\n Python（全程线上/高薪/全额社保公积金）\n\n  【 滨江区 】\n\n  20-40k·14薪\n\n  经验不限 本科\n\n  某深圳大型通信设备公司\n\n  某深圳大型通信设备公司\n\n  通信设备,智能硬件/消费电子 战略融资 10000人以上\n\n  \n\n  吴女士\n\n  HR\n 软件开发（java python c\\c++ 前端开发 测试岗位）\n\n  【 滨江区 】\n\n  15-30k·14薪\n\n  经验不限 本科\n\n  某北京大型人力资源服务公司\n\n  某北京大型人力资源服务公司\n\n  人力资源服务 已上市 10000人以上\n\n  \n\n  靳女士\n\n  HR\n JAVA/C/Python/web开发工程师\n\n  【 杭州 】\n\n  20-40k·16薪\n\n  经验不限 本科\n\n  某大型世界500强通信设备公司\n\n  某大型世界500强通信设备公司\n\n  通信设备,智能硬件/消费电子 战略融资 10000人以上\n\n  \n\n  姚女士\n\n  招聘专员\n AI架构/AI原生/AI服务端研发负责人\n\n  【 杭州 】\n\n  90-120k·16薪\n\n  10年以上 本科\n\n  某深圳大型智能硬件公司\n\n  某深圳大型智能硬件公司\n\n  智能硬件/消费电子 C轮融资 10000人以上\n\n  \n\n  张先生\n\n  高级猎头顾问\n AIGC 全栈开发工程师 / AI 应用工程师\n\n  【 杭州 】\n\n  18-26k·14薪 [...] 高级猎头顾问\n AIGC 全栈开发工程师 / AI 应用工程师\n\n  【 杭州 】\n\n  18-26k·14薪\n\n  3-5年 本科\n\n  某南京计算机软件公司\n\n  某南京计算机软件公司\n\n  计算机软件 B轮融资 1000-2000人\n\n  \n\n  王先生\n\n  高级人才寻访官\n 高级PHP工程师\n\n  【 杭州 】\n\n  25-35k\n\n  经验不限 本科\n\n  某国内电子商务公司\n\n  某国内电子商务公司\n\n  电子商务,批发/零售 融资未公开 100-499人\n\n  \n\n  邓女士\n\n  猎头\n 编译器技术专家-CPU软件\n\n  【 杭州 】\n\n  20-40k\n\n  1-3年 本科\n\n  某知名公司\n\n  某知名公司\n\n  机械/设备,电子/半导体/集成电路 融资未公开 1-49人\n\n  \n\n  李女士\n\n  猎头顾问/助理\n 全栈工程师\n\n  【 杭州 】\n\n  40-70k·14薪\n\n  5-10年 学历不限\n\n  某杭州整车制造上市公司\n\n  某杭州整车制造上市公司\n\n  整车制造,新能源汽车 已上市 10000人以上\n\n  \n\n  凌女士\n\n  猎头顾问/助理\n C++开发\n\n  【 杭州 】\n\n  30-50k\n\n  3-5年 本科\n\n  某上海大型人工智能公司\n\n  某上海大型人工智能公司\n\n  人工智能 A轮融资 500-999人\n\n  \n\n  蒋女士\n\n  猎头\n 应用软件工程师（业务开发方向）\n\n  【 杭州 】\n\n  20-40k\n\n  2年以上 本科\n\n  某大型知名机械/设备公司\n\n  某大型知名机械/设备公司\n\n  机械/设备 战略融资 500-999人\n\n  \n\n  邢女士\n\n  猎头顾问\n Python软件开发工程师\n\n  【 杭州 】\n\n  15-25k·14薪\n\n  经验不限 大专\n\n  某国内世界500强通信设备公司",
+      "query": "开发 后端 Python 杭州 实习生  后端开发 招聘",
+      "query_kind": "user_confirmed",
+      "status": "metadata_only",
+      "error_code": null,
+      "job_id": null,
+      "created_at": "2026-10-23T14:08:17.133587Z",
+      "intelligence": {
+        "kind": "listing",
+        "opportunities": [
+          {
+            "title": "Python软件开发工程师",
+            "company": "某深圳大型通信设备公司",
+            "cities": [
+              "杭州"
+            ],
+            "salary": "14-25k",
+            "education": "学历不限",
+            "attendance": null,
+            "deadline": null,
+            "responsibilities": [],
+            "requirements": [],
+            "relevance": "possible",
+            "relevance_reason": "杭州Python开发岗位，但为社招薪资岗位，非实习",
+            "difficulty": {
+              "level": "unknown",
+              "reason": "仅有标题、薪资与经验学历要求，缺少职责与技术栈细节",
+              "preparation": []
+            }
+          },
+          {
+            "title": "Python软件开发工程师",
+            "company": "某国内世界500强通信设备公司",
+            "cities": [
+              "杭州"
+            ],
+            "salary": "15-25k·14薪",
+            "education": "大专",
+            "attendance": null,
+            "deadline": null,
+            "responsibilities": [],
+            "requirements": [],
+            "relevance": "possible",
+            "relevance_reason": "杭州Python开发岗位，但为社招薪资岗位，非实习",
+            "difficulty": {
+              "level": "unknown",
+              "reason": "仅有标题、薪资与经验学历要求，缺少职责与技术栈细节",
+              "preparation": []
+            }
+          },
+          {
+            "title": "Python（全程线上/高薪/全额社保公积金）",
+            "company": "某深圳大型通信设备公司",
+            "cities": [
+              "滨江区"
+            ],
+            "salary": "20-40k·14薪",
+            "education": "本科",
+            "attendance": null,
+            "deadline": null,
+            "responsibilities": [],
+            "requirements": [],
+            "relevance": "low",
+            "relevance_reason": "来源显示地点为滨江区，与你输入的城市不同，请核实。",
+            "difficulty": {
+              "level": "unknown",
+              "reason": "仅有标题、薪资与经验学历要求，缺少职责与技术栈细节",
+              "preparation": []
+            }
+          }
+        ],
+        "note": "招聘列表页，列出多个具体职位，但均为社招岗位，与实习意图不完全匹配",
+        "basis": "search_excerpt",
+        "prompt_version": "2026-10-23.4"
+      }
+    },
+    {
+      "id": "21904b71-461e-49cb-a77c-7d76f1fe5103",
+      "url": "https://www.zhipin.com/zhaopin/ffb764c03bfae13c1nJy29m_GQ~~",
+      "title": "python后端校招招聘信息",
+      "summary": "岗位职责1、负责基于Python 的后端接口与服务开发，支持AI Agent 相关业务场景（如对话、工具调用、任务编排等）； 2、参与大模型相关应用的后端",
+      "query": "开发 后端 Python 杭州 实习生  招聘 岗位职责 任职要求",
+      "query_kind": "user_confirmed",
+      "status": "metadata_only",
+      "error_code": null,
+      "job_id": null,
+      "created_at": "2026-10-23T14:08:11.908009Z",
+      "intelligence": {
+        "kind": "position",
+        "opportunities": [],
+        "note": "搜索结果标题为校招招聘信息，摘要仅含岗位职责片段，未提供公司、城市、薪资等具体信息。",
+        "basis": "search_excerpt",
+        "prompt_version": "2026-10-23.4"
+      }
+    },
+    {
+      "id": "235acf21-8813-48bf-af86-88fc1350475b",
+      "url": "https://wap.shixiseng.com/intern/inn_41g0gnslfwav",
+      "title": "同花顺正在招聘Python开发实习生（2020届）",
+      "summary": "岗位职责1.参与公司的漏洞扫描产品的开发与维护（Python编写） 2.主动跟踪和分析新安全漏洞，进行应急响应并提供解决方案3.负责完成上级交办的项目工作任务，解决项目",
+      "query": "开发 后端 Python 杭州 实习生  招聘 岗位职责 任职要求",
+      "query_kind": "user_confirmed",
+      "status": "metadata_only",
+      "error_code": null,
+      "job_id": null,
+      "created_at": "2026-10-23T14:08:11.910136Z",
+      "intelligence": {
+        "kind": "position",
+        "opportunities": [
+          {
+            "title": "同花顺正在招聘Python开发实习生（2020届）",
+            "company": "同花顺",
+            "cities": [],
+            "salary": null,
+            "education": null,
+            "attendance": null,
+            "deadline": null,
+            "responsibilities": [
+              "参与公司的漏洞扫描产品的开发与维护（Python编写）",
+              "主动跟踪和分析新安全漏洞，进行应急响应并提供解决方案",
+              "负责完成上级交办的项目工作任务，解决项目"
+            ],
+            "requirements": [],
+            "relevance": "possible",
+            "relevance_reason": "标题明确为Python开发实习生，符合实习与Python方向；但未在原文中明确城市为杭州，且标注2020届，时效性存疑。",
+            "difficulty": {
+              "level": "medium",
+              "reason": "岗位涉及漏洞扫描产品开发与安全漏洞跟踪分析，可能需要Python开发与安全基础；信息有限，仅为粗略预测。",
+              "preparation": [
+                "巩固Python开发基础",
+                "了解常见安全漏洞与应急响应流程",
+                "准备与产品开发维护相关的项目经历"
+              ]
+            }
+          }
+        ],
+        "note": "标题显示为同花顺Python开发实习生（2020届），摘要仅含岗位职责片段，未提供城市、薪资、学历等信息。",
+        "basis": "search_excerpt",
+        "prompt_version": "2026-10-23.4"
+      }
+    },
+    {
+      "id": "25fdf33f-e91a-46b8-ba81-215c49f05581",
+      "url": "https://www.zhipin.com/zhaopin/bd3a7f5de135c2c91H1539-4Eg~~",
+      "title": "杭州平台开发实习生招聘信息",
+      "summary": "Python后端开发实习AI Infra/Agent平台方向. 200-300元/天. 澳比茨 · 杭州余杭区仓前 本科. 职位描述： - 参与大模型平台及Agent 平台的后端开发工作，包括API 设计、服务",
+      "query": "开发 后端 Python 杭州 实习生  后端开发 招聘",
+      "query_kind": "user_confirmed",
+      "status": "metadata_only",
+      "error_code": null,
+      "job_id": null,
+      "created_at": "2026-10-23T14:08:17.127229Z",
+      "intelligence": {
+        "kind": "position",
+        "opportunities": [
+          {
+            "title": "Python后端开发实习AI Infra/Agent平台方向",
+            "company": "澳比茨",
+            "cities": [
+              "杭州余杭区仓前"
+            ],
+            "salary": "200-300元/天",
+            "education": "本科",
+            "attendance": null,
+            "deadline": null,
+            "responsibilities": [
+              "参与大模型平台及Agent 平台的后端开发工作，包括API 设计、服务"
+            ],
+            "requirements": [],
+            "relevance": "low",
+            "relevance_reason": "来源显示地点为杭州余杭区仓前，与你输入的城市不同，请核实。",
+            "difficulty": {
+              "level": "medium",
+              "reason": "岗位涉及大模型平台与Agent平台后端开发及API设计，通常需要一定后端基础与工程理解；信息有限，仅为粗略预测",
+              "preparation": [
+                "复习Python后端基础与API设计",
+                "了解大模型/Agent平台基本概念",
+                "准备后端项目经历与接口设计案例"
+              ]
+            }
+          }
+        ],
+        "note": "招聘平台职位页，含具体实习岗位信息",
+        "basis": "search_excerpt",
+        "prompt_version": "2026-10-23.4"
+      }
+    },
+    {
+      "id": "26fccc37-188f-4064-8bf4-75c55ea38836",
+      "url": "https://www.v2ex.com/t/377746",
+      "title": "[杭州]青露科技招聘Python 后端开发工程师（实习/全职）",
+      "summary": "基本要求： 1. 1~2 年Python 开发经验，熟悉语言特性，有开发web 应用、API 服务的经验。 2. 有良好的编码风格，能单元测试、集成测试、CI 等改进开发",
+      "query": "开发 后端 Python 杭州 实习生  后端开发 招聘",
+      "query_kind": "user_confirmed",
+      "status": "metadata_only",
+      "error_code": null,
+      "job_id": null,
+      "created_at": "2026-10-23T14:08:17.123571Z",
+      "intelligence": {
+        "kind": "position",
+        "opportunities": [
+          {
+            "title": "[杭州]青露科技招聘Python 后端开发工程师（实习/全职）",
+            "company": "青露科技",
+            "cities": [
+              "杭州"
+            ],
+            "salary": null,
+            "education": null,
+            "attendance": null,
+            "deadline": null,
+            "responsibilities": [],
+            "requirements": [
+              "1~2 年Python 开发经验，熟悉语言特性，有开发web 应用、API 服务的经验。",
+              "有良好的编码风格，能单元测试、集成测试、CI 等改进开发"
+            ],
+            "relevance": "high",
+            "relevance_reason": "标题明确为杭州、Python后端开发工程师，且包含实习选项，与用户城市和方向高度匹配。",
+            "difficulty": {
+              "level": "medium",
+              "reason": "要求1~2年Python开发经验并熟悉web应用、API服务，对实习申请者可能有一定门槛；信息有限，仅为粗略预测。",
+              "preparation": [
+                "复习Python语言特性与Web/API服务开发",
+                "准备单元测试、集成测试与CI相关实践",
+                "梳理后端项目经历与编码风格示例"
+              ]
+            }
+          }
+        ],
+        "note": "标题显示为杭州青露科技Python后端开发工程师（实习/全职），摘要仅含基本要求片段，未提供薪资、学历等信息。",
+        "basis": "search_excerpt",
+        "prompt_version": "2026-10-23.4"
+      }
+    },
+    {
+      "id": "5a9a6ee4-9662-4712-96b0-cccc85113e94",
+      "url": "https://www.shixiseng.com/intern/inn_kaemvygowjhr",
+      "title": "杭州冉曼正在招聘后端工程师（实习生）",
+      "summary": "职位亮点：可转正实习. 职位描述：. 工作职责：. 1. 参与人工智能算法平台的后端研发工作；. 2. 参与设计技术方案，输出相关文档；. 3. 完善公共代码库，持续推进项目开发",
+      "query": "开发 后端 Python 杭州 实习生  招聘 岗位职责 任职要求",
+      "query_kind": "user_confirmed",
+      "status": "metadata_only",
+      "error_code": null,
+      "job_id": null,
+      "created_at": "2026-10-23T14:08:11.903269Z",
+      "intelligence": {
+        "kind": "position",
+        "opportunities": [
+          {
+            "title": "后端工程师（实习生）",
+            "company": "杭州冉曼",
+            "cities": [],
+            "salary": null,
+            "education": null,
+            "attendance": null,
+            "deadline": null,
+            "responsibilities": [
+              "参与人工智能算法平台的后端研发工作；",
+              "参与设计技术方案，输出相关文档；",
+              "完善公共代码库，持续推进项目开发"
+            ],
+            "requirements": [],
+            "relevance": "high",
+            "relevance_reason": "标题明确为杭州公司招聘后端工程师实习生，与用户杭州后端实习方向高度匹配；摘要未直接出现城市字段，城市依据标题中的公司所在地判断。",
+            "difficulty": {
+              "level": "medium",
+              "reason": "岗位涉及人工智能算法平台后端研发、技术方案设计与公共代码库维护，通常要求一定后端工程与协作能力；摘要未给出具体技能与学历要求，属粗略预测。",
+              "preparation": [
+                "巩固后端研发基础与至少一门后端语言",
+                "准备技术方案设计与文档输出示例",
+                "了解人工智能算法平台的基本架构",
+                "梳理代码库维护与团队协作经验"
+              ]
+            }
+          }
+        ],
+        "note": "实习招聘页摘要，含具体职位与工作职责，按职位卡片整理；职位亮点“可转正实习”未放入事实字段。城市、薪资、学历、出勤与截止时间原文未提供，保留为空。",
+        "basis": "search_excerpt",
+        "prompt_version": "2026-10-23.4"
+      }
+    },
+    {
+      "id": "5ba4a70e-0b91-4aef-985b-c9b24e5a80c3",
+      "url": "https://www.zhipin.com/zhaopin/58bb4afbc60b8e1c1nZ_3dy4GQ~~",
+      "title": "后端Python实习招聘信息",
+      "summary": "Python 后端开发实习生 ... 岗位职责： 1. 负责模型推理部署平台后端的开发和维护工作2. 负责和前端工程师对接，优化用户体验； 3. 负责测试用例和用户文档的编写； 岗位要求",
+      "query": "开发 后端 Python 杭州 实习生  后端开发 招聘",
+      "query_kind": "user_confirmed",
+      "status": "metadata_only",
+      "error_code": null,
+      "job_id": null,
+      "created_at": "2026-10-23T14:08:17.130129Z",
+      "intelligence": {
+        "kind": "position",
+        "opportunities": [
+          {
+            "title": "Python 后端开发实习生",
+            "company": null,
+            "cities": [],
+            "salary": null,
+            "education": null,
+            "attendance": null,
+            "deadline": null,
+            "responsibilities": [
+              "负责模型推理部署平台后端的开发和维护工作",
+              "负责和前端工程师对接，优化用户体验；",
+              "负责测试用例和用户文档的编写；"
+            ],
+            "requirements": [],
+            "relevance": "high",
+            "relevance_reason": "标题与职责均为Python后端开发实习，方向高度匹配；城市未在证据中明确",
+            "difficulty": {
+              "level": "medium",
+              "reason": "涉及模型推理部署平台后端开发与前后端对接，通常要求后端开发与协作能力；信息有限，仅为粗略预测",
+              "preparation": [
+                "复习Python后端开发与接口联调",
+                "了解模型推理部署基础",
+                "准备测试用例与文档编写经验"
+              ]
+            }
+          }
+        ],
+        "note": "招聘平台职位页，含具体实习岗位职责",
+        "basis": "search_excerpt",
+        "prompt_version": "2026-10-23.4"
+      }
+    },
+    {
+      "id": "6856aa8d-3c0f-4645-a4bb-6d395f73daa0",
+      "url": "https://www.zhipin.com/zhaopin/b0ffb79d732ba7091nB409S-Fw~~",
+      "title": "python实习生杭州招聘信息",
+      "summary": "岗位职责： 1. 参与公司Python 后端服务、工具或脚本的开发和维护，主要基于flask技术栈2. 配合产品经理，理解需求完成开发相关工作。 3.",
+      "query": "开发 后端 Python 杭州 实习生  招聘 岗位职责 任职要求",
+      "query_kind": "user_confirmed",
+      "status": "metadata_only",
+      "error_code": null,
+      "job_id": null,
+      "created_at": "2026-10-23T14:08:11.891043Z",
+      "intelligence": {
+        "kind": "position",
+        "opportunities": [],
+        "note": "招聘页面摘要，仅含部分岗位职责，公司、薪资、学历等未在原文出现。",
+        "basis": "search_excerpt",
+        "prompt_version": "2026-10-23.4"
+      }
+    },
+    {
+      "id": "97cefcab-8539-4693-9f02-01d1b2a59e69",
+      "url": "https://www.zhipin.com/zhaopin/3c6c214c305b88ad1nF62NS_FQ~~",
+      "title": "Python后端实习生招聘信息",
+      "summary": "Python 后端开发实习生 ... 岗位职责： 1. 负责模型推理部署平台后端的开发和维护工作2. 负责和前端工程师对接，优化用户体验； 3. 负责测试用例和用户文档的编写； 岗位要求",
+      "query": "开发 后端 Python 杭州 实习生  招聘 岗位职责 任职要求",
+      "query_kind": "user_confirmed",
+      "status": "metadata_only",
+      "error_code": null,
+      "job_id": null,
+      "created_at": "2026-10-23T14:08:11.900859Z",
+      "intelligence": {
+        "kind": "position",
+        "opportunities": [
+          {
+            "title": "Python 后端开发实习生",
+            "company": null,
+            "cities": [],
+            "salary": null,
+            "education": null,
+            "attendance": null,
+            "deadline": null,
+            "responsibilities": [
+              "负责模型推理部署平台后端的开发和维护工作",
+              "负责和前端工程师对接，优化用户体验；",
+              "负责测试用例和用户文档的编写；"
+            ],
+            "requirements": [],
+            "relevance": "high",
+            "relevance_reason": "标题与摘要明确为Python后端开发实习岗位，与用户期望的杭州后端/Python实习方向一致；但摘要未出现城市信息，无法确认是否在杭州。",
+            "difficulty": {
+              "level": "medium",
+              "reason": "岗位涉及模型推理部署平台后端开发、前后端对接与测试文档编写，技术栈偏Python后端与部署方向，通常需要一定工程基础；摘要未给出学历、年级或具体技能要求，属粗略预测。",
+              "preparation": [
+                "复习Python后端开发基础与常见Web框架",
+                "了解模型推理部署平台的基本概念与流程",
+                "准备前后端接口对接与联调相关经验",
+                "梳理测试用例编写与用户文档撰写能力"
+              ]
+            }
+          }
+        ],
+        "note": "招聘详情页摘要，含具体职位与职责，按职位卡片整理；城市、薪资、学历、出勤与截止时间原文未提供，保留为空。",
+        "basis": "search_excerpt",
+        "prompt_version": "2026-10-23.4"
+      }
+    },
+    {
+      "id": "a7e349c1-2137-4fb8-ada4-5ceba152cd6a",
+      "url": "https://wap.shixiseng.com/intern/inn_tf4amtesnuvc",
+      "title": "后端开发实习生（杭州）实习招聘-七牛云实习生招聘-实习僧",
+      "summary": "首页\n 校招\n 实习僧TV\n 实习僧教育\n 职位百科\n\n企业入口\n\n后端开发实习生（杭州）\n\n2022-02-25 10:00:40 刷新\n\n200-250/天 杭州 本科 3天／周 实习6个月 提供转正机会\n\n免费早餐团建旅游弹性工作时间\n\n微信扫码同步查看  \n投递方便通知及时\n\n 扫码手机查看\n\n当前职位已下线\n\n职位描述：\n\n岗位职责：\n\n参与七牛大数据产品的开发工作\n\n任职要求：\n\n1. 本科及以上学历，计算机相关专业\n2. 熟悉至少一门后端语言，包括但不限于Go/Java/Scala/C/C++/Python/Ruby\n3. 熟悉至少一种数据库编程, 包括但不限于 Mongo/MySQL\n4. 熟悉 Linux 工作环境\n5. 有的数据结构和算法基础\n6. 工作积极主动、擅于思考问题，能够主动沟通与解决问题\n\n加分项：\n\n1. 熟悉大数据开源生态\n2. 熟悉容器技术\n3. 向知名开源项目提交过代码\n4. 表现优异者可申请转正\n5. 可实习6个月以上\n\n投递要求：\n\n简历要求： 中文\n\n截止日期：2018-11-30\n\n工作地点：\n\n杭州市下城区武林时代商务中心2106室 收起地图\n\n求职中若出现虚假宣传，收取财物等违法情况。请立即举报\n\n当前职位已下线\n\n公司简介\n\n  七牛云\n\n### 职位百科\n\n为你揭秘各职业的工作内容｜薪资水平…\n\n#### 大数据开发工程师\n\n百科详情\n\n负责一个大数据平台的底层架构的搭建和开发的人员。\n\n举报\n\nRiot Games 招聘问卷\n\n产品服务 找实习 找校招 看空宣\n\n旗下产品 实习僧 实习僧TV 实习僧题库 职场说\n\n关于我们 了解我们 加入我们 免责声明 专项治理\n\n联系我们 实习僧公众号 客户服务 \n\n服务时间：工作日 9:30-18:00\n\n商务合作 [...] 联系我们 实习僧公众号 客户服务 \n\n服务时间：工作日 9:30-18:00\n\n商务合作\n\n©2015-2026 实习僧|蜀ICP备13010980号|联系我们：sxs@shixiseng.com\n\n成都萌想科技有限责任公司版权所有 中国专注实习、校招垂直招聘平台\n\n川公网安备 51019002001179号 经营资质",
+      "query": "开发 后端 Python 杭州 实习生  招聘 岗位职责 任职要求",
+      "query_kind": "user_confirmed",
+      "status": "metadata_only",
+      "error_code": null,
+      "job_id": null,
+      "created_at": "2026-10-23T14:08:11.897686Z",
+      "intelligence": {
+        "kind": "position",
+        "opportunities": [
+          {
+            "title": "后端开发实习生（杭州）",
+            "company": "七牛云",
+            "cities": [
+              "杭州"
+            ],
+            "salary": "200-250/天",
+            "education": "本科",
+            "attendance": "3天／周 实习6个月",
+            "deadline": "2018-11-30",
+            "responsibilities": [
+              "参与七牛大数据产品的开发工作"
+            ],
+            "requirements": [
+              "本科及以上学历，计算机相关专业",
+              "熟悉至少一门后端语言，包括但不限于Go/Java/Scala/C/C++/Python/Ruby",
+              "熟悉至少一种数据库编程, 包括但不限于 Mongo/MySQL",
+              "熟悉 Linux 工作环境",
+              "有的数据结构和算法基础",
+              "工作积极主动、擅于思考问题，能够主动沟通与解决问题"
+            ],
+            "relevance": "high",
+            "relevance_reason": "杭州后端开发实习，接受Python等后端语言，与用户城市和方向匹配",
+            "difficulty": {
+              "level": "medium",
+              "reason": "要求计算机相关专业本科、至少一门后端语言、数据库与Linux基础及数据结构算法基础，属常见后端实习门槛；未涉及实际面试标准",
+              "preparation": [
+                "巩固数据结构与算法基础",
+                "熟悉MySQL或Mongo等数据库编程",
+                "练习Linux常用操作",
+                "准备一门后端语言（如Python）的项目经历"
+              ]
+            }
+          }
+        ],
+        "note": "原文显示当前职位已下线，截止日期为2018-11-30，信息时效性需注意。",
+        "basis": "search_excerpt",
+        "prompt_version": "2026-10-23.4"
+      }
+    },
+    {
+      "id": "b1b43afa-c337-4ea1-a869-3b45a9fb6b5f",
+      "url": "https://www.zhipin.com/zhaopin/7a6350411316c31503x63tu9Ew~~",
+      "title": "杭州初级后端开发实习生招聘信息",
+      "summary": "岗位职责： 1、参与公司后端系统的设计与开发，完成模块编码和单元测试； 2、根据产品需求实现业务逻辑，保障接口的稳定性与性能； 3、配合前端及测试团. 后端开发实习生.",
+      "query": "开发 后端 Python 杭州 实习生  招聘 岗位职责 任职要求",
+      "query_kind": "user_confirmed",
+      "status": "metadata_only",
+      "error_code": null,
+      "job_id": null,
+      "created_at": "2026-10-23T14:08:11.894558Z",
+      "intelligence": {
+        "kind": "position",
+        "opportunities": [],
+        "note": "招聘页面摘要，职责文字在原文处截断，公司、薪资等未出现。",
+        "basis": "search_excerpt",
+        "prompt_version": "2026-10-23.4"
+      }
+    },
+    {
+      "id": "da25064f-39a1-4e8f-98fc-110bdb11ba6a",
+      "url": "https://cn.linkedin.com/jobs/view/python%E5%AE%9E%E4%B9%A0%E7%94%9F-at-%E6%9D%AD%E5%B7%9E%E5%8D%8F%E5%8A%9B%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8-4474820078",
+      "title": "杭州协力科技有限公司的Python实习生— 大连市",
+      "summary": "服从性强，执行力强。 Job Responsibilities: 岗位职责：. Primarily involved in the development and maintenance of the ERP system. 主要参与ERP系统",
+      "query": "开发 后端 Python 杭州 实习生  招聘 岗位职责 任职要求",
+      "query_kind": "user_confirmed",
+      "status": "metadata_only",
+      "error_code": null,
+      "job_id": null,
+      "created_at": "2026-10-23T14:08:11.905726Z",
+      "intelligence": {
+        "kind": "position",
+        "opportunities": [
+          {
+            "title": "Python实习生",
+            "company": "杭州协力科技有限公司",
+            "cities": [
+              "大连市"
+            ],
+            "salary": null,
+            "education": null,
+            "attendance": null,
+            "deadline": null,
+            "responsibilities": [
+              "Primarily involved in the development and maintenance of the ERP system.",
+              "主要参与ERP系统"
+            ],
+            "requirements": [
+              "服从性强，执行力强。"
+            ],
+            "relevance": "low",
+            "relevance_reason": "来源显示地点为大连市，与你输入的城市不同，请核实。",
+            "difficulty": {
+              "level": "unknown",
+              "reason": "摘要仅提及参与ERP系统开发维护及服从性、执行力要求，缺少技术栈细节与学历年级要求，信息不足，暂无法判断。",
+              "preparation": [
+                "了解ERP系统的基本业务与开发维护流程",
+                "复习Python开发基础"
+              ]
+            }
+          }
+        ],
+        "note": "招聘页摘要，含具体职位与职责，按职位卡片整理；工作地点为大连市，与用户杭州偏好不符。薪资、学历、出勤与截止时间原文未提供，保留为空。",
+        "basis": "search_excerpt",
+        "prompt_version": "2026-10-23.4"
+      }
+    }
+  ],
+  "counts": {
+    "sources": 12,
+    "positions": 11,
+    "relevant_positions": 8,
+    "positions_with_requirements": 2,
+    "predicted_difficulties": 6
+  },
+  "completed_at": "2026-10-23T14:08:37.144106+00:00"
+}

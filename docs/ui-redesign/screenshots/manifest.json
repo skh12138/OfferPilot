@@ -1,0 +1,794 @@
+[
+  {
+    "file": "after/application-detail-1440.png",
+    "width": 1440,
+    "height": 900,
+    "bytes": 115395
+  },
+  {
+    "file": "after/application-detail-390.png",
+    "width": 390,
+    "height": 1065,
+    "bytes": 82400
+  },
+  {
+    "file": "after/application-detail-768.png",
+    "width": 768,
+    "height": 905,
+    "bytes": 109464
+  },
+  {
+    "file": "after/applications-1440.png",
+    "width": 1440,
+    "height": 1220,
+    "bytes": 154973
+  },
+  {
+    "file": "after/applications-390.png",
+    "width": 390,
+    "height": 1309,
+    "bytes": 115943
+  },
+  {
+    "file": "after/applications-768.png",
+    "width": 768,
+    "height": 1212,
+    "bytes": 144279
+  },
+  {
+    "file": "after/applications-board-1440.png",
+    "width": 1440,
+    "height": 900,
+    "bytes": 99262
+  },
+  {
+    "file": "after/applications-board-390.png",
+    "width": 390,
+    "height": 900,
+    "bytes": 60324
+  },
+  {
+    "file": "after/board-1440.png",
+    "width": 1440,
+    "height": 900,
+    "bytes": 100378
+  },
+  {
+    "file": "after/board-390.png",
+    "width": 390,
+    "height": 900,
+    "bytes": 61999
+  },
+  {
+    "file": "after/board-768.png",
+    "width": 768,
+    "height": 900,
+    "bytes": 88087
+  },
+  {
+    "file": "after/delete-preview-1440.png",
+    "width": 1440,
+    "height": 900,
+    "bytes": 164623
+  },
+  {
+    "file": "after/delete-preview-390.png",
+    "width": 390,
+    "height": 900,
+    "bytes": 89673
+  },
+  {
+    "file": "after/discover-1440-zoom200.png",
+    "width": 1440,
+    "height": 3214,
+    "bytes": 460002
+  },
+  {
+    "file": "after/discover-1440.png",
+    "width": 1440,
+    "height": 1587,
+    "bytes": 297299
+  },
+  {
+    "file": "after/discover-390.png",
+    "width": 390,
+    "height": 1823,
+    "bytes": 180653
+  },
+  {
+    "file": "after/discover-768.png",
+    "width": 768,
+    "height": 1612,
+    "bytes": 214388
+  },
+  {
+    "file": "after/discover-no-filter-results-1440.png",
+    "width": 1440,
+    "height": 931,
+    "bytes": 138850
+  },
+  {
+    "file": "after/discover-no-filter-results-390.png",
+    "width": 390,
+    "height": 1180,
+    "bytes": 100697
+  },
+  {
+    "file": "after/discover-partial-simulated-1440.png",
+    "width": 1440,
+    "height": 1737,
+    "bytes": 336983
+  },
+  {
+    "file": "after/discover-partial-simulated-390.png",
+    "width": 390,
+    "height": 2924,
+    "bytes": 219732
+  },
+  {
+    "file": "after/discover-preview-1440.png",
+    "width": 1440,
+    "height": 1587,
+    "bytes": 297517
+  },
+  {
+    "file": "after/discover-preview-390.png",
+    "width": 390,
+    "height": 900,
+    "bytes": 69131
+  },
+  {
+    "file": "after/discover-preview-768.png",
+    "width": 768,
+    "height": 900,
+    "bytes": 95785
+  },
+  {
+    "file": "after/discover-running-simulated-1440.png",
+    "width": 1440,
+    "height": 1644,
+    "bytes": 311284
+  },
+  {
+    "file": "after/discover-running-simulated-390.png",
+    "width": 390,
+    "height": 1868,
+    "bytes": 183173
+  },
+  {
+    "file": "after/job-detail-1440.png",
+    "width": 1440,
+    "height": 1358,
+    "bytes": 143655
+  },
+  {
+    "file": "after/job-detail-390.png",
+    "width": 390,
+    "height": 1434,
+    "bytes": 108443
+  },
+  {
+    "file": "after/job-detail-768.png",
+    "width": 768,
+    "height": 1350,
+    "bytes": 134498
+  },
+  {
+    "file": "after/job-edit-1440.png",
+    "width": 1440,
+    "height": 3258,
+    "bytes": 310688
+  },
+  {
+    "file": "after/job-edit-390.png",
+    "width": 390,
+    "height": 3952,
+    "bytes": 258029
+  },
+  {
+    "file": "after/job-evidence-1440.png",
+    "width": 1440,
+    "height": 3632,
+    "bytes": 331788
+  },
+  {
+    "file": "after/job-evidence-390.png",
+    "width": 390,
+    "height": 4327,
+    "bytes": 275831
+  },
+  {
+    "file": "after/job-import-1440.png",
+    "width": 1440,
+    "height": 900,
+    "bytes": 151606
+  },
+  {
+    "file": "after/job-import-390.png",
+    "width": 390,
+    "height": 900,
+    "bytes": 39482
+  },
+  {
+    "file": "after/job-import-768.png",
+    "width": 768,
+    "height": 900,
+    "bytes": 63999
+  },
+  {
+    "file": "after/job-long-content-simulated-1440.png",
+    "width": 1440,
+    "height": 1385,
+    "bytes": 185739
+  },
+  {
+    "file": "after/job-long-content-simulated-390.png",
+    "width": 390,
+    "height": 1582,
+    "bytes": 147351
+  },
+  {
+    "file": "after/jobs-1440.png",
+    "width": 1440,
+    "height": 1474,
+    "bytes": 264434
+  },
+  {
+    "file": "after/jobs-390.png",
+    "width": 390,
+    "height": 1896,
+    "bytes": 157839
+  },
+  {
+    "file": "after/jobs-768.png",
+    "width": 768,
+    "height": 1534,
+    "bytes": 185325
+  },
+  {
+    "file": "after/jobs-comparison-1440.png",
+    "width": 1440,
+    "height": 1787,
+    "bytes": 294689
+  },
+  {
+    "file": "after/jobs-comparison-390.png",
+    "width": 390,
+    "height": 2351,
+    "bytes": 185562
+  },
+  {
+    "file": "after/jobs-loading-simulated-1440.png",
+    "width": 1440,
+    "height": 900,
+    "bytes": 76739
+  },
+  {
+    "file": "after/jobs-loading-simulated-390.png",
+    "width": 390,
+    "height": 900,
+    "bytes": 48464
+  },
+  {
+    "file": "after/jobs-network-error-1440.png",
+    "width": 1440,
+    "height": 900,
+    "bytes": 83878
+  },
+  {
+    "file": "after/jobs-network-error-390.png",
+    "width": 390,
+    "height": 900,
+    "bytes": 52690
+  },
+  {
+    "file": "after/jobs-no-filter-results-1440.png",
+    "width": 1440,
+    "height": 900,
+    "bytes": 84102
+  },
+  {
+    "file": "after/jobs-no-filter-results-390.png",
+    "width": 390,
+    "height": 900,
+    "bytes": 54864
+  },
+  {
+    "file": "after/login-1440.png",
+    "width": 1440,
+    "height": 900,
+    "bytes": 48216
+  },
+  {
+    "file": "after/login-390.png",
+    "width": 390,
+    "height": 900,
+    "bytes": 38299
+  },
+  {
+    "file": "after/login-768.png",
+    "width": 768,
+    "height": 900,
+    "bytes": 41579
+  },
+  {
+    "file": "after/mobile-navigation-390.png",
+    "width": 390,
+    "height": 900,
+    "bytes": 27998
+  },
+  {
+    "file": "after/mobile-navigation-768.png",
+    "width": 768,
+    "height": 900,
+    "bytes": 62361
+  },
+  {
+    "file": "after/offer-comparison-1440.png",
+    "width": 1440,
+    "height": 1265,
+    "bytes": 150824
+  },
+  {
+    "file": "after/offer-comparison-390.png",
+    "width": 390,
+    "height": 1533,
+    "bytes": 111807
+  },
+  {
+    "file": "after/operations-1440.png",
+    "width": 1440,
+    "height": 1376,
+    "bytes": 127211
+  },
+  {
+    "file": "after/operations-390.png",
+    "width": 390,
+    "height": 1614,
+    "bytes": 91677
+  },
+  {
+    "file": "after/operations-768.png",
+    "width": 768,
+    "height": 1595,
+    "bytes": 120305
+  },
+  {
+    "file": "after/operations-no-permission-1440.png",
+    "width": 1440,
+    "height": 900,
+    "bytes": 58814
+  },
+  {
+    "file": "after/operations-no-permission-390.png",
+    "width": 390,
+    "height": 900,
+    "bytes": 34334
+  },
+  {
+    "file": "after/practice-1440.png",
+    "width": 1440,
+    "height": 979,
+    "bytes": 135286
+  },
+  {
+    "file": "after/practice-390.png",
+    "width": 390,
+    "height": 1127,
+    "bytes": 83921
+  },
+  {
+    "file": "after/practice-768.png",
+    "width": 768,
+    "height": 1094,
+    "bytes": 109265
+  },
+  {
+    "file": "after/practice-current-1440.png",
+    "width": 1440,
+    "height": 979,
+    "bytes": 137440
+  },
+  {
+    "file": "after/practice-current-390.png",
+    "width": 390,
+    "height": 1272,
+    "bytes": 87980
+  },
+  {
+    "file": "after/practice-feedback-1440.png",
+    "width": 1440,
+    "height": 1508,
+    "bytes": 212932
+  },
+  {
+    "file": "after/practice-feedback-390.png",
+    "width": 390,
+    "height": 1748,
+    "bytes": 143684
+  },
+  {
+    "file": "after/profile-1440.png",
+    "width": 1440,
+    "height": 900,
+    "bytes": 96216
+  },
+  {
+    "file": "after/profile-390.png",
+    "width": 390,
+    "height": 924,
+    "bytes": 64080
+  },
+  {
+    "file": "after/profile-768.png",
+    "width": 768,
+    "height": 900,
+    "bytes": 89729
+  },
+  {
+    "file": "after/profile-editor-1440.png",
+    "width": 1440,
+    "height": 914,
+    "bytes": 114313
+  },
+  {
+    "file": "after/profile-editor-390.png",
+    "width": 390,
+    "height": 1046,
+    "bytes": 79901
+  },
+  {
+    "file": "after/profile-editor-768.png",
+    "width": 768,
+    "height": 957,
+    "bytes": 108489
+  },
+  {
+    "file": "after/profile-privacy-1440.png",
+    "width": 1440,
+    "height": 900,
+    "bytes": 141274
+  },
+  {
+    "file": "after/profile-privacy-390.png",
+    "width": 390,
+    "height": 1144,
+    "bytes": 109781
+  },
+  {
+    "file": "after/reviews-1440.png",
+    "width": 1440,
+    "height": 1008,
+    "bytes": 110809
+  },
+  {
+    "file": "after/reviews-390.png",
+    "width": 390,
+    "height": 1104,
+    "bytes": 78438
+  },
+  {
+    "file": "after/reviews-768.png",
+    "width": 768,
+    "height": 1111,
+    "bytes": 104511
+  },
+  {
+    "file": "after/round-edit-1440.png",
+    "width": 1440,
+    "height": 900,
+    "bytes": 135655
+  },
+  {
+    "file": "after/round-edit-390.png",
+    "width": 390,
+    "height": 900,
+    "bytes": 29663
+  },
+  {
+    "file": "after/study-1440.png",
+    "width": 1440,
+    "height": 900,
+    "bytes": 87891
+  },
+  {
+    "file": "after/study-390.png",
+    "width": 390,
+    "height": 900,
+    "bytes": 55932
+  },
+  {
+    "file": "after/study-768.png",
+    "width": 768,
+    "height": 900,
+    "bytes": 81645
+  },
+  {
+    "file": "after/submission-confirmation-1440.png",
+    "width": 1440,
+    "height": 900,
+    "bytes": 145426
+  },
+  {
+    "file": "after/submission-confirmation-390.png",
+    "width": 390,
+    "height": 900,
+    "bytes": 40851
+  },
+  {
+    "file": "after/today-1440.png",
+    "width": 1440,
+    "height": 1318,
+    "bytes": 130339
+  },
+  {
+    "file": "after/today-390.png",
+    "width": 390,
+    "height": 1471,
+    "bytes": 94854
+  },
+  {
+    "file": "after/today-768.png",
+    "width": 768,
+    "height": 1396,
+    "bytes": 123030
+  },
+  {
+    "file": "after/today-draft-error-1440.png",
+    "width": 1440,
+    "height": 911,
+    "bytes": 94479
+  },
+  {
+    "file": "after/today-draft-error-390.png",
+    "width": 390,
+    "height": 1001,
+    "bytes": 70179
+  },
+  {
+    "file": "after/today-draft-error-open-1440.png",
+    "width": 1440,
+    "height": 900,
+    "bytes": 106496
+  },
+  {
+    "file": "after/today-draft-error-open-390.png",
+    "width": 390,
+    "height": 946,
+    "bytes": 36041
+  },
+  {
+    "file": "before/application-detail-1440.png",
+    "width": 1440,
+    "height": 1262,
+    "bytes": 125776
+  },
+  {
+    "file": "before/application-detail-390.png",
+    "width": 390,
+    "height": 1368,
+    "bytes": 98245
+  },
+  {
+    "file": "before/application-detail-768.png",
+    "width": 768,
+    "height": 1290,
+    "bytes": 118431
+  },
+  {
+    "file": "before/applications-1440.png",
+    "width": 1440,
+    "height": 1918,
+    "bytes": 201440
+  },
+  {
+    "file": "before/applications-390.png",
+    "width": 390,
+    "height": 1964,
+    "bytes": 174106
+  },
+  {
+    "file": "before/applications-768.png",
+    "width": 768,
+    "height": 1902,
+    "bytes": 187290
+  },
+  {
+    "file": "before/board-1440.png",
+    "width": 1440,
+    "height": 1918,
+    "bytes": 201440
+  },
+  {
+    "file": "before/board-390.png",
+    "width": 390,
+    "height": 1964,
+    "bytes": 165926
+  },
+  {
+    "file": "before/board-768.png",
+    "width": 768,
+    "height": 1902,
+    "bytes": 195837
+  },
+  {
+    "file": "before/discover-1440.png",
+    "width": 1440,
+    "height": 4876,
+    "bytes": 635088
+  },
+  {
+    "file": "before/discover-390.png",
+    "width": 390,
+    "height": 6271,
+    "bytes": 522864
+  },
+  {
+    "file": "before/discover-768.png",
+    "width": 768,
+    "height": 5546,
+    "bytes": 574984
+  },
+  {
+    "file": "before/job-detail-1440.png",
+    "width": 1440,
+    "height": 2481,
+    "bytes": 232215
+  },
+  {
+    "file": "before/job-detail-390.png",
+    "width": 390,
+    "height": 3081,
+    "bytes": 196864
+  },
+  {
+    "file": "before/job-detail-768.png",
+    "width": 768,
+    "height": 2805,
+    "bytes": 218571
+  },
+  {
+    "file": "before/jobs-1440.png",
+    "width": 1440,
+    "height": 2185,
+    "bytes": 211546
+  },
+  {
+    "file": "before/jobs-390.png",
+    "width": 390,
+    "height": 3307,
+    "bytes": 252380
+  },
+  {
+    "file": "before/jobs-768.png",
+    "width": 768,
+    "height": 3245,
+    "bytes": 278862
+  },
+  {
+    "file": "before/login-1440.png",
+    "width": 1440,
+    "height": 900,
+    "bytes": 42469
+  },
+  {
+    "file": "before/login-390.png",
+    "width": 390,
+    "height": 900,
+    "bytes": 41704
+  },
+  {
+    "file": "before/login-768.png",
+    "width": 768,
+    "height": 900,
+    "bytes": 45744
+  },
+  {
+    "file": "before/operations-1440.png",
+    "width": 1440,
+    "height": 1358,
+    "bytes": 118172
+  },
+  {
+    "file": "before/operations-390.png",
+    "width": 390,
+    "height": 1608,
+    "bytes": 94170
+  },
+  {
+    "file": "before/operations-768.png",
+    "width": 768,
+    "height": 1542,
+    "bytes": 112014
+  },
+  {
+    "file": "before/practice-1440.png",
+    "width": 1440,
+    "height": 3080,
+    "bytes": 302054
+  },
+  {
+    "file": "before/practice-390.png",
+    "width": 390,
+    "height": 3550,
+    "bytes": 259852
+  },
+  {
+    "file": "before/practice-768.png",
+    "width": 768,
+    "height": 3194,
+    "bytes": 282942
+  },
+  {
+    "file": "before/profile-1440.png",
+    "width": 1440,
+    "height": 2298,
+    "bytes": 232894
+  },
+  {
+    "file": "before/profile-390.png",
+    "width": 390,
+    "height": 2926,
+    "bytes": 202961
+  },
+  {
+    "file": "before/profile-768.png",
+    "width": 768,
+    "height": 2678,
+    "bytes": 225798
+  },
+  {
+    "file": "before/reviews-1440.png",
+    "width": 1440,
+    "height": 1641,
+    "bytes": 177238
+  },
+  {
+    "file": "before/reviews-390.png",
+    "width": 390,
+    "height": 1148,
+    "bytes": 67231
+  },
+  {
+    "file": "before/reviews-768.png",
+    "width": 768,
+    "height": 1871,
+    "bytes": 169310
+  },
+  {
+    "file": "before/study-1440.png",
+    "width": 1440,
+    "height": 1020,
+    "bytes": 103692
+  },
+  {
+    "file": "before/study-390.png",
+    "width": 390,
+    "height": 1330,
+    "bytes": 84116
+  },
+  {
+    "file": "before/study-768.png",
+    "width": 768,
+    "height": 1204,
+    "bytes": 99843
+  },
+  {
+    "file": "before/today-1440.png",
+    "width": 1440,
+    "height": 1596,
+    "bytes": 137174
+  },
+  {
+    "file": "before/today-390.png",
+    "width": 390,
+    "height": 2001,
+    "bytes": 112893
+  },
+  {
+    "file": "before/today-768.png",
+    "width": 768,
+    "height": 1915,
+    "bytes": 131308
+  }
+]

@@ -1,0 +1,52 @@
+{
+  "time": "2026-10-23T12:33:32.974916+00:00",
+  "mode": "live",
+  "synthetic_personal_data": true,
+  "deepseek": {
+    "status": "passed",
+    "requested_model": "deepseek-flash",
+    "usage": {
+      "input_tokens": 228,
+      "output_tokens": 5,
+      "credits": null,
+      "response_model": "deepseek-flash"
+    }
+  },
+  "tavily_search": {
+    "status": "passed",
+    "query": "Python 实习 招聘 杭州",
+    "count": 3,
+    "candidates": [
+      {
+        "url": "https://www.zhipin.com/zhaopin/4f15371c50c56bac1XJ83to~",
+        "title": "Python实习招聘信息"
+      },
+      {
+        "url": "https://m.zhaopin.com/position/Python",
+        "title": "Python招聘_Python人才招聘信息 - 智联招聘"
+      },
+      {
+        "url": "http://www.yingjiesheng.com/hangzhoujob/index.html",
+        "title": "杭州招聘_杭州应届生求职网"
+      }
+    ],
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null,
+      "credits": 1.0,
+      "response_model": null
+    }
+  },
+  "tavily_extract": {
+    "status": "passed",
+    "url": "https://docs.tavily.com/",
+    "characters": 4599,
+    "failures": {},
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null,
+      "credits": 0.0,
+      "response_model": null
+    }
+  }
+}

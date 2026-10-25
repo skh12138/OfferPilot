@@ -1,0 +1,12 @@
+{
+  "time": "2026-10-23T11:38:51.411Z",
+  "mode": "demo",
+  "synthetic": true,
+  "origin": "http://localhost:8081",
+  "login": true,
+  "raw_resume_without_model": true,
+  "web_api_worker_database_import": true,
+  "job_ids": [
+    "71baed5c-f171-4cd0-9d40-75293038317a"
+  ]
+}

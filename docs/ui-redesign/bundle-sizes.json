@@ -1,0 +1,30 @@
+{
+  "unit": "decimal kB; sum of emitted assets, not initial-page transfer",
+  "before": {
+    "js": {
+      "raw_kB": 1208.8,
+      "sum_gzip_kB": 406.83,
+      "chunks": 19
+    },
+    "css": {
+      "raw_kB": 368.6,
+      "sum_gzip_kB": 50.07,
+      "chunks": 1
+    }
+  },
+  "after": {
+    "js": {
+      "raw_kB": 1260.29,
+      "sum_gzip_kB": 426.49,
+      "chunks": 24
+    },
+    "css": {
+      "raw_kB": 383.66,
+      "sum_gzip_kB": 53.3,
+      "chunks": 1
+    }
+  },
+  "new_dependencies": false,
+  "new_font_assets": false,
+  "warning": "Existing Element Plus chunk >500kB; route lazy loading retained"
+}

@@ -1,0 +1,17 @@
+{
+  "time": "2026-10-23T14:23:43.151Z",
+  "origin": "http://localhost:8082",
+  "mode": "live",
+  "run_id": "313d3f96-a0cc-40fd-94e7-7667bc5590bb",
+  "visible_cards": 19,
+  "widths": [
+    390,
+    768,
+    1440
+  ],
+  "refresh_preserves_results": true,
+  "no_horizontal_overflow": true,
+  "page_errors": [],
+  "personal_input": "none",
+  "source_search_run_id": "23e6add9-5aac-44a9-9f18-c82b6b1acf54"
+}

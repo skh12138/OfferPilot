@@ -1,0 +1,20 @@
+# Isolated, disposable acceptance project; never reuse the normal database volume.
+# Requires the current offerpilot-acceptance images to have been built first.
+services:
+  api:
+    image: offerpilot-acceptance-api
+    environment:
+      APP_MODE: live
+      PUBLIC_ORIGIN: http://localhost:8082
+  worker:
+    image: offerpilot-acceptance-api
+    environment:
+      APP_MODE: live
+      PUBLIC_ORIGIN: http://localhost:8082
+  migrate:
+    image: offerpilot-acceptance-api
+    environment:
+      APP_MODE: live
+  web:
+    image: offerpilot-acceptance-web
+    ports: !override ["127.0.0.1:8082:80"]

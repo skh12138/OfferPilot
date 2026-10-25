@@ -1,0 +1,11 @@
+# Same local 8081 entry point; mode and provider credentials come from the private .env.
+# Use the existing project name to preserve its database volume.
+services:
+  api:
+    environment:
+      PUBLIC_ORIGIN: http://localhost:8081
+  worker:
+    environment:
+      PUBLIC_ORIGIN: http://localhost:8081
+  web:
+    ports: !override ["127.0.0.1:8081:80"]

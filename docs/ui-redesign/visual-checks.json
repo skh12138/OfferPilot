@@ -1,0 +1,101 @@
+{
+  "theme": {
+    "primary": "#243d35",
+    "pairs": [
+      {
+        "fg": "--op-text-primary",
+        "bg": "--op-bg-canvas",
+        "ratio": 10.737491743207558,
+        "min": 4.5
+      },
+      {
+        "fg": "--op-text-secondary",
+        "bg": "--op-bg-canvas",
+        "ratio": 5.260290872277098,
+        "min": 4.5
+      },
+      {
+        "fg": "--op-text-secondary",
+        "bg": "--op-bg-selected",
+        "ratio": 4.771406245505429,
+        "min": 4.5
+      },
+      {
+        "fg": "--op-text-secondary",
+        "bg": "--op-bg-sidebar",
+        "ratio": 4.851434407368424,
+        "min": 4.5
+      },
+      {
+        "fg": "--op-text-secondary",
+        "bg": "--op-bg-hover",
+        "ratio": 5.042261271469112,
+        "min": 4.5
+      },
+      {
+        "fg": "--op-text-primary",
+        "bg": "--op-bg-surface",
+        "ratio": 11.515330843835855,
+        "min": 4.5
+      },
+      {
+        "fg": "--op-text-placeholder",
+        "bg": "--op-bg-surface",
+        "ratio": 5.005588389267934,
+        "min": 4.5
+      },
+      {
+        "fg": "--op-text-on-accent",
+        "bg": "--op-accent",
+        "ratio": 11.515330843835855,
+        "min": 4.5
+      },
+      {
+        "fg": "--op-warning-text",
+        "bg": "--op-warning-bg",
+        "ratio": 5.264893170517564,
+        "min": 4.5
+      },
+      {
+        "fg": "--op-danger-text",
+        "bg": "--op-danger-bg",
+        "ratio": 5.582749055090252,
+        "min": 4.5
+      },
+      {
+        "fg": "--op-info-text",
+        "bg": "--op-info-bg",
+        "ratio": 5.662000725798798,
+        "min": 4.5
+      },
+      {
+        "fg": "--op-success-text",
+        "bg": "--op-success-bg",
+        "ratio": 6.7375635528123325,
+        "min": 4.5
+      },
+      {
+        "fg": "--op-border-control",
+        "bg": "--op-bg-surface",
+        "ratio": 4.169346429438997,
+        "min": 3
+      },
+      {
+        "fg": "--op-focus-ring",
+        "bg": "--op-bg-canvas",
+        "ratio": 6.8137606788945115,
+        "min": 3
+      }
+    ]
+  },
+  "fonts": [
+    {
+      "familyName": "Songti SC",
+      "postScriptName": "STSongti-SC-Bold",
+      "isCustomFont": false,
+      "glyphCount": 12
+    }
+  ],
+  "zoom": "CSS zoom=2 at 1440x900; no horizontal overflow",
+  "three_short_rows_visible": true
+}

@@ -1,0 +1,286 @@
+{
+  "time": "2026-10-23T12:53:06.218866+00:00",
+  "synthetic_user": "live_f0ad82f5c9654b15",
+  "origin": "http://localhost:8082",
+  "runs": [
+    {
+      "id": "539ce280-4336-4535-a1b0-e4030cbdded9",
+      "kind": "search",
+      "status": "succeeded",
+      "model": "deepseek-flash",
+      "prompt_version": "2026-10-23.2",
+      "started_at": "2026-10-23T12:41:38.381512+00:00",
+      "completed_at": "2026-10-23T12:41:40.386277+00:00",
+      "error_code": null
+    },
+    {
+      "id": "b7355d3f-480c-4510-a5f1-ae7c1b5cdc87",
+      "kind": "resume_parse",
+      "status": "succeeded",
+      "model": "deepseek-flash",
+      "prompt_version": "2026-10-23.2",
+      "started_at": "2026-10-23T12:41:42.423641+00:00",
+      "completed_at": "2026-10-23T12:41:43.397482+00:00",
+      "error_code": null
+    },
+    {
+      "id": "114d4881-003d-43b2-922b-e52d693a0303",
+      "kind": "job_import",
+      "status": "failed",
+      "model": "deepseek-flash",
+      "prompt_version": "2026-10-23.2",
+      "started_at": "2026-10-23T12:41:44.423187+00:00",
+      "completed_at": "2026-10-23T12:41:52.158442+00:00",
+      "error_code": null
+    },
+    {
+      "id": "69a85582-75c0-4441-bada-28047f59face",
+      "kind": "search",
+      "status": "succeeded",
+      "model": "deepseek-flash",
+      "prompt_version": "2026-10-23.3",
+      "started_at": "2026-10-23T12:49:46.351156+00:00",
+      "completed_at": "2026-10-23T12:49:47.240977+00:00",
+      "error_code": null
+    },
+    {
+      "id": "a0b473b1-e6b9-46a3-9f67-1f424df29864",
+      "kind": "resume_parse",
+      "status": "succeeded",
+      "model": "deepseek-flash",
+      "prompt_version": "2026-10-23.3",
+      "started_at": "2026-10-23T12:49:48.264200+00:00",
+      "completed_at": "2026-10-23T12:49:50.200829+00:00",
+      "error_code": null
+    },
+    {
+      "id": "374eb542-d021-4146-aded-941ee033b5a9",
+      "kind": "job_import",
+      "status": "succeeded",
+      "model": "deepseek-flash",
+      "prompt_version": "2026-10-23.3",
+      "started_at": "2026-10-23T12:49:51.221169+00:00",
+      "completed_at": "2026-10-23T12:49:56.038397+00:00",
+      "error_code": null
+    },
+    {
+      "id": "1d4b7a70-aaa2-4cfe-8d6c-e22191f2238e",
+      "kind": "study",
+      "status": "succeeded",
+      "model": "deepseek-flash",
+      "prompt_version": "2026-10-23.3",
+      "started_at": "2026-10-23T12:49:57.058795+00:00",
+      "completed_at": "2026-10-23T12:50:13.623159+00:00",
+      "error_code": null
+    },
+    {
+      "id": "c908187b-3d73-4853-ac59-9855fb5dc740",
+      "kind": "feedback",
+      "status": "succeeded",
+      "model": "deepseek-flash",
+      "prompt_version": "2026-10-23.3",
+      "started_at": "2026-10-23T12:50:14.644757+00:00",
+      "completed_at": "2026-10-23T12:50:20.400404+00:00",
+      "error_code": null
+    },
+    {
+      "id": "a8900d29-2f76-46de-95e3-e27fc0d6934c",
+      "kind": "material_prepare",
+      "status": "succeeded",
+      "model": "deepseek-flash",
+      "prompt_version": "2026-10-23.3",
+      "started_at": "2026-10-23T12:50:22.434359+00:00",
+      "completed_at": "2026-10-23T12:50:33.724971+00:00",
+      "error_code": null
+    }
+  ],
+  "calls": [
+    {
+      "id": "68dec9d7-3f61-4a55-a154-4cdfae3ab540",
+      "run_id": "539ce280-4336-4535-a1b0-e4030cbdded9",
+      "provider": "search",
+      "step_key": "search:q00",
+      "model": null,
+      "response_model": null,
+      "prompt_version": "2026-10-23.2",
+      "status": "completed",
+      "usage": {
+        "credits": 1.0,
+        "input_tokens": null,
+        "output_tokens": null,
+        "response_model": null
+      },
+      "error_code": null
+    },
+    {
+      "id": "a63c5adb-909e-41f5-b671-e9025a4cf7e8",
+      "run_id": "b7355d3f-480c-4510-a5f1-ae7c1b5cdc87",
+      "provider": "llm",
+      "step_key": "extract_facts",
+      "model": "deepseek-flash",
+      "response_model": "deepseek-flash",
+      "prompt_version": "2026-10-23.2",
+      "status": "completed",
+      "usage": {
+        "credits": null,
+        "input_tokens": 587,
+        "output_tokens": 92,
+        "response_model": "deepseek-flash"
+      },
+      "error_code": null
+    },
+    {
+      "id": "eb29b470-ad66-4f09-9733-b28fa5ef7476",
+      "run_id": "114d4881-003d-43b2-922b-e52d693a0303",
+      "provider": "llm",
+      "step_key": "normalize:0",
+      "model": "deepseek-flash",
+      "response_model": "deepseek-flash",
+      "prompt_version": "2026-10-23.2",
+      "status": "completed",
+      "usage": {
+        "credits": null,
+        "input_tokens": 2259,
+        "output_tokens": 1071,
+        "response_model": "deepseek-flash"
+      },
+      "error_code": null
+    },
+    {
+      "id": "071a2a0a-a35d-4909-a394-d1808e2334c6",
+      "run_id": "114d4881-003d-43b2-922b-e52d693a0303",
+      "provider": "llm",
+      "step_key": "normalize:0:repair",
+      "model": "deepseek-flash",
+      "response_model": "deepseek-flash",
+      "prompt_version": "2026-10-23.2",
+      "status": "completed",
+      "usage": {
+        "credits": null,
+        "input_tokens": 2284,
+        "output_tokens": 803,
+        "response_model": "deepseek-flash"
+      },
+      "error_code": null
+    },
+    {
+      "id": "f56c2863-6b04-4caa-ab70-a44abfb0f735",
+      "run_id": "69a85582-75c0-4441-bada-28047f59face",
+      "provider": "search",
+      "step_key": "search:q00",
+      "model": null,
+      "response_model": null,
+      "prompt_version": "2026-10-23.3",
+      "status": "completed",
+      "usage": {
+        "credits": 1.0,
+        "input_tokens": null,
+        "output_tokens": null,
+        "response_model": null
+      },
+      "error_code": null
+    },
+    {
+      "id": "1b1fcaef-bcbf-4a40-901a-0bcba687e513",
+      "run_id": "a0b473b1-e6b9-46a3-9f67-1f424df29864",
+      "provider": "llm",
+      "step_key": "extract_facts",
+      "model": "deepseek-flash",
+      "response_model": "deepseek-flash",
+      "prompt_version": "2026-10-23.3",
+      "status": "completed",
+      "usage": {
+        "credits": null,
+        "input_tokens": 683,
+        "output_tokens": 91,
+        "response_model": "deepseek-flash"
+      },
+      "error_code": null
+    },
+    {
+      "id": "cde49dd6-e2d1-4769-a4af-4d051f227472",
+      "run_id": "374eb542-d021-4146-aded-941ee033b5a9",
+      "provider": "llm",
+      "step_key": "normalize:0",
+      "model": "deepseek-flash",
+      "response_model": "deepseek-flash",
+      "prompt_version": "2026-10-23.3",
+      "status": "completed",
+      "usage": {
+        "credits": null,
+        "input_tokens": 2514,
+        "output_tokens": 964,
+        "response_model": "deepseek-flash"
+      },
+      "error_code": null
+    },
+    {
+      "id": "1ac90392-0718-4999-aa80-093da52c672e",
+      "run_id": "1d4b7a70-aaa2-4cfe-8d6c-e22191f2238e",
+      "provider": "search",
+      "step_key": "interview:search",
+      "model": null,
+      "response_model": null,
+      "prompt_version": "2026-10-23.3",
+      "status": "completed",
+      "usage": {
+        "credits": 1.0,
+        "input_tokens": null,
+        "output_tokens": null,
+        "response_model": null
+      },
+      "error_code": null
+    },
+    {
+      "id": "53ab13a3-aca0-4fe7-b46c-b30616cb5973",
+      "run_id": "1d4b7a70-aaa2-4cfe-8d6c-e22191f2238e",
+      "provider": "llm",
+      "step_key": "generate_question_batch",
+      "model": "deepseek-flash",
+      "response_model": "deepseek-flash",
+      "prompt_version": "2026-10-23.3",
+      "status": "completed",
+      "usage": {
+        "credits": null,
+        "input_tokens": 3841,
+        "output_tokens": 2248,
+        "response_model": "deepseek-flash"
+      },
+      "error_code": null
+    },
+    {
+      "id": "091bd47c-1d7e-44e3-aacd-1e8f79b7a870",
+      "run_id": "c908187b-3d73-4853-ac59-9855fb5dc740",
+      "provider": "llm",
+      "step_key": "evaluate_by_rubric",
+      "model": "deepseek-flash",
+      "response_model": "deepseek-flash",
+      "prompt_version": "2026-10-23.3",
+      "status": "completed",
+      "usage": {
+        "credits": null,
+        "input_tokens": 1157,
+        "output_tokens": 656,
+        "response_model": "deepseek-flash"
+      },
+      "error_code": null
+    },
+    {
+      "id": "548dbb4e-566b-4331-adb6-cc3836f1b377",
+      "run_id": "a8900d29-2f76-46de-95e3-e27fc0d6934c",
+      "provider": "llm",
+      "step_key": "generate_tasks_and_claims",
+      "model": "deepseek-flash",
+      "response_model": "deepseek-flash",
+      "prompt_version": "2026-10-23.3",
+      "status": "completed",
+      "usage": {
+        "credits": null,
+        "input_tokens": 3666,
+        "output_tokens": 1840,
+        "response_model": "deepseek-flash"
+      },
+      "error_code": null
+    }
+  ]
+}

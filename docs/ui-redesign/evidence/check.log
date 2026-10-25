@@ -1,0 +1,3 @@
+$ vue-tsc --noEmit && eslint . && prettier --check src tests
+Checking formatting...
+All matched files use Prettier code style!

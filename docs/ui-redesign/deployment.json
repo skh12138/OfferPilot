@@ -1,0 +1,76 @@
+{
+  "url": "http://localhost:8081",
+  "ready": {
+    "status": "ready"
+  },
+  "capabilities": {
+    "mode": "live",
+    "model_available": true,
+    "search_available": true,
+    "model": "deepseek-flash"
+  },
+  "provider_network_calls_performed": false,
+  "services": {
+    "api": {
+      "before_id": "5c91ae3727eb",
+      "after_id": "5c91ae3727eb",
+      "unchanged": true,
+      "state": "running"
+    },
+    "db": {
+      "before_id": "f0c4212e9107",
+      "after_id": "f0c4212e9107",
+      "unchanged": true,
+      "state": "running"
+    },
+    "web": {
+      "before_id": "c58897473116",
+      "after_id": "9459141436ec",
+      "unchanged": false,
+      "state": "running"
+    },
+    "worker": {
+      "before_id": "828d0a4d4dae",
+      "after_id": "828d0a4d4dae",
+      "unchanged": true,
+      "state": "running"
+    }
+  },
+  "database_volume_unchanged": true,
+  "database_mounts": [
+    {
+      "Type": "volume",
+      "Name": "offerpilot-acceptance_database",
+      "Destination": "/var/lib/postgresql/data"
+    }
+  ],
+  "web_image_before": "sha256:01e46a5543d55b8728af69c1d00958ec4f9170913457229619331c6ba15e51ea",
+  "web_image_after": "sha256:71b0684bbe6d5dd691141d2a74069231de662d0753c8bed0f4ff80a0a7f00d50",
+  "theme_tokens_served": true,
+  "entry_assets": [
+    {
+      "path": "/assets/index-CDf7ogY3.js",
+      "bytes": 26867,
+      "sha256": "aa59bc311e78173647364f9b4b73746ef2a92e51300f832c143f64cb56c6ee6d",
+      "matches_local_build": true
+    },
+    {
+      "path": "/assets/vue-BTey_n4V.js",
+      "bytes": 149384,
+      "sha256": "5e01ecd05b7c3979ed33eaa1f89179857b470e4da04ea7026b22f03f8d27cc47",
+      "matches_local_build": true
+    },
+    {
+      "path": "/assets/element-CwyQR7ep.js",
+      "bytes": 917213,
+      "sha256": "ccc563060e54ee4c6f82a9a272dbd51fce4ea308b8341dab61dbfacbc1279a20",
+      "matches_local_build": true
+    },
+    {
+      "path": "/assets/index-Cc8OznDb.css",
+      "bytes": 383661,
+      "sha256": "8a24221790b3fb76a59e7b7a14719e32312a551e67a8ac860c4a6d6e112010d7",
+      "matches_local_build": true
+    }
+  ]
+}
